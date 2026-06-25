@@ -1,0 +1,217 @@
+{
+  "roadmaps": [
+    {
+      "id": 1,
+      "slug": "frontend",
+      "title": "Frontend Development",
+      "description": "Master the foundations of building modern, responsive websites with HTML, CSS, and JavaScript.",
+      "icon": "🌐",
+      "color": "#3B82F6",
+      "category": "frontend",
+      "totalSkills": 10,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 2,
+      "slug": "react",
+      "title": "React.js Mastery",
+      "description": "Learn to build dynamic, component-driven UIs with React, from JSX to advanced hooks and routing.",
+      "icon": "⚛️",
+      "color": "#61DAFB",
+      "category": "react",
+      "totalSkills": 10,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 3,
+      "slug": "backend",
+      "title": "Backend Development",
+      "description": "Build and deploy server-side applications using Node.js, Express, and databases.",
+      "icon": "🛠️",
+      "color": "#22C55E",
+      "category": "backend",
+      "totalSkills": 10,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 4,
+      "slug": "dsa",
+      "title": "Data Structures & Algorithms",
+      "description": "Strengthen your problem-solving skills with core data structures and algorithmic techniques.",
+      "icon": "🧠",
+      "color": "#F97316",
+      "category": "dsa",
+      "totalSkills": 12,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 5,
+      "slug": "uiux",
+      "title": "UI/UX Design",
+      "description": "Learn design fundamentals, prototyping, and usability principles to craft great user experiences.",
+      "icon": "🎨",
+      "color": "#EC4899",
+      "category": "uiux",
+      "totalSkills": 9,
+      "difficulty": "Beginner"
+    }
+  ],
+
+  "frontend": [
+    { "id": 101, "title": "HTML Basics", "description": "Semantic HTML, tags, and document structure.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+    { "id": 102, "title": "CSS Basics", "description": "Selectors, box model, and styling fundamentals.", "completed": false, "locked": false, "prerequisite": 101, "xp": 50 },
+    { "id": 103, "title": "CSS Flexbox & Grid", "description": "Modern layout systems for responsive design.", "completed": false, "locked": true, "prerequisite": 102, "xp": 75 },
+    { "id": 104, "title": "Responsive Design", "description": "Media queries and mobile-first design.", "completed": false, "locked": true, "prerequisite": 103, "xp": 75 },
+    { "id": 105, "title": "JavaScript Basics", "description": "Variables, functions, loops, and conditionals.", "completed": false, "locked": true, "prerequisite": 101, "xp": 75 },
+    { "id": 106, "title": "DOM Manipulation", "description": "Selecting and updating elements dynamically.", "completed": false, "locked": true, "prerequisite": 105, "xp": 75 },
+    { "id": 107, "title": "ES6+ Features", "description": "Arrow functions, destructuring, spread/rest, modules.", "completed": false, "locked": true, "prerequisite": 106, "xp": 100 },
+    { "id": 108, "title": "Fetch API & AJAX", "description": "Making HTTP requests and handling responses.", "completed": false, "locked": true, "prerequisite": 107, "xp": 100 },
+    { "id": 109, "title": "Git & GitHub", "description": "Version control basics and collaboration workflows.", "completed": false, "locked": true, "prerequisite": 101, "xp": 50 },
+    { "id": 110, "title": "Browser DevTools", "description": "Debugging, inspecting, and profiling in the browser.", "completed": false, "locked": true, "prerequisite": 105, "xp": 50 }
+  ],
+
+  "react": [
+    { "id": 201, "title": "JSX & Components", "description": "Writing JSX and creating functional components.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+    { "id": 202, "title": "Props", "description": "Passing and validating data between components.", "completed": false, "locked": false, "prerequisite": 201, "xp": 50 },
+    { "id": 203, "title": "State & useState", "description": "Managing local component state.", "completed": false, "locked": true, "prerequisite": 202, "xp": 75 },
+    { "id": 204, "title": "Event Handling", "description": "Handling user interactions with synthetic events.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
+    { "id": 205, "title": "useEffect & Lifecycle", "description": "Side effects, data fetching, and cleanup.", "completed": false, "locked": true, "prerequisite": 204, "xp": 100 },
+    { "id": 206, "title": "Conditional Rendering & Lists", "description": "Rendering UI conditionally and mapping over data.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
+    { "id": 207, "title": "Forms & Controlled Components", "description": "Managing form inputs and validation in React.", "completed": false, "locked": true, "prerequisite": 204, "xp": 75 },
+    { "id": 208, "title": "Context API", "description": "Sharing state globally without prop drilling.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
+    { "id": 209, "title": "React Router", "description": "Client-side routing and nested routes.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
+    { "id": 210, "title": "Custom Hooks", "description": "Extracting and reusing component logic.", "completed": false, "locked": true, "prerequisite": 208, "xp": 125 }
+  ],
+
+  "backend": [
+    { "id": 301, "title": "Node.js Basics", "description": "The Node runtime, modules, and the event loop.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+    { "id": 302, "title": "NPM & Modules", "description": "Package management and the module system.", "completed": false, "locked": true, "prerequisite": 301, "xp": 50 },
+    { "id": 303, "title": "Express.js Fundamentals", "description": "Routing, middleware, and request handling.", "completed": false, "locked": true, "prerequisite": 302, "xp": 75 },
+    { "id": 304, "title": "REST API Design", "description": "Designing clean, resource-based APIs.", "completed": false, "locked": true, "prerequisite": 303, "xp": 100 },
+    { "id": 305, "title": "Middleware", "description": "Custom and third-party middleware patterns.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
+    { "id": 306, "title": "Authentication & JWT", "description": "Securing routes with tokens and sessions.", "completed": false, "locked": true, "prerequisite": 305, "xp": 100 },
+    { "id": 307, "title": "Databases - SQL Basics", "description": "Relational schemas and SQL queries.", "completed": false, "locked": true, "prerequisite": 301, "xp": 75 },
+    { "id": 308, "title": "MongoDB & Mongoose", "description": "NoSQL data modeling with Mongoose ODM.", "completed": false, "locked": true, "prerequisite": 301, "xp": 100 },
+    { "id": 309, "title": "Error Handling", "description": "Centralized error handling and status codes.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
+    { "id": 310, "title": "Deployment Basics", "description": "Deploying Node apps to the cloud.", "completed": false, "locked": true, "prerequisite": 306, "xp": 100 }
+  ],
+
+  "dsa": [
+    { "id": 401, "title": "Big O Notation", "description": "Analyzing time and space complexity.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+    { "id": 402, "title": "Arrays & Strings", "description": "Core operations and common patterns.", "completed": false, "locked": false, "prerequisite": 401, "xp": 75 },
+    { "id": 403, "title": "Hashing", "description": "Hash maps and sets for fast lookups.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+    { "id": 404, "title": "Linked Lists", "description": "Singly and doubly linked list operations.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+    { "id": 405, "title": "Stacks & Queues", "description": "LIFO/FIFO structures and use cases.", "completed": false, "locked": true, "prerequisite": 404, "xp": 75 },
+    { "id": 406, "title": "Recursion", "description": "Recursive thinking and base cases.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
+    { "id": 407, "title": "Trees", "description": "Binary trees, traversals, and BSTs.", "completed": false, "locked": true, "prerequisite": 406, "xp": 100 },
+    { "id": 408, "title": "Binary Search", "description": "Search in sorted structures efficiently.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+    { "id": 409, "title": "Sorting Algorithms", "description": "Bubble, merge, quick sort, and complexity tradeoffs.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
+    { "id": 410, "title": "Graphs", "description": "Graph representations, BFS, and DFS.", "completed": false, "locked": true, "prerequisite": 407, "xp": 125 },
+    { "id": 411, "title": "Dynamic Programming", "description": "Memoization and tabulation techniques.", "completed": false, "locked": true, "prerequisite": 406, "xp": 150 },
+    { "id": 412, "title": "Greedy Algorithms", "description": "Making locally optimal choices.", "completed": false, "locked": true, "prerequisite": 409, "xp": 100 }
+  ],
+
+  "uiux": [
+    { "id": 501, "title": "Design Principles", "description": "Contrast, alignment, repetition, proximity.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+    { "id": 502, "title": "Color Theory", "description": "Color harmony, contrast, and accessibility.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
+    { "id": 503, "title": "Typography", "description": "Font pairing, hierarchy, and readability.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
+    { "id": 504, "title": "Wireframing", "description": "Low-fidelity layout planning.", "completed": false, "locked": true, "prerequisite": 501, "xp": 75 },
+    { "id": 505, "title": "Figma Basics", "description": "Frames, components, and auto layout.", "completed": false, "locked": true, "prerequisite": 504, "xp": 75 },
+    { "id": 506, "title": "Prototyping", "description": "Interactive flows and transitions.", "completed": false, "locked": true, "prerequisite": 505, "xp": 100 },
+    { "id": 507, "title": "Usability Testing", "description": "Gathering and applying user feedback.", "completed": false, "locked": true, "prerequisite": 506, "xp": 100 },
+    { "id": 508, "title": "Design Systems", "description": "Reusable components and style guides.", "completed": false, "locked": true, "prerequisite": 503, "xp": 100 },
+    { "id": 509, "title": "Accessibility (a11y)", "description": "Designing for all users and assistive tech.", "completed": false, "locked": true, "prerequisite": 508, "xp": 100 }
+  ],
+
+  "resources": [
+    { "id": 1, "skillId": 101, "roadmap": "frontend", "title": "MDN: HTML Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML" },
+    { "id": 2, "skillId": 102, "roadmap": "frontend", "title": "MDN: CSS Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS" },
+    { "id": 3, "skillId": 103, "roadmap": "frontend", "title": "A Complete Guide to Flexbox", "type": "article", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" },
+    { "id": 4, "skillId": 104, "roadmap": "frontend", "title": "MDN: Responsive Design", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" },
+    { "id": 5, "skillId": 105, "roadmap": "frontend", "title": "JavaScript.info: The Basics", "type": "docs", "url": "https://javascript.info" },
+    { "id": 6, "skillId": 106, "roadmap": "frontend", "title": "MDN: Introduction to the DOM", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" },
+    { "id": 7, "skillId": 107, "roadmap": "frontend", "title": "JavaScript.info: Modern JS", "type": "docs", "url": "https://javascript.info/js" },
+    { "id": 8, "skillId": 108, "roadmap": "frontend", "title": "MDN: Using the Fetch API", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" },
+    { "id": 9, "skillId": 109, "roadmap": "frontend", "title": "GitHub: Git Handbook", "type": "docs", "url": "https://docs.github.com/en/get-started/using-git/about-git" },
+    { "id": 10, "skillId": 110, "roadmap": "frontend", "title": "Chrome DevTools Documentation", "type": "docs", "url": "https://developer.chrome.com/docs/devtools" },
+
+    { "id": 11, "skillId": 201, "roadmap": "react", "title": "React Docs: Writing Markup with JSX", "type": "docs", "url": "https://react.dev/learn/writing-markup-with-jsx" },
+    { "id": 12, "skillId": 202, "roadmap": "react", "title": "React Docs: Passing Props", "type": "docs", "url": "https://react.dev/learn/passing-props-to-a-component" },
+    { "id": 13, "skillId": 203, "roadmap": "react", "title": "React Docs: State - A Component's Memory", "type": "docs", "url": "https://react.dev/learn/state-a-components-memory" },
+    { "id": 14, "skillId": 204, "roadmap": "react", "title": "React Docs: Responding to Events", "type": "docs", "url": "https://react.dev/learn/responding-to-events" },
+    { "id": 15, "skillId": 205, "roadmap": "react", "title": "React Docs: Synchronizing with Effects", "type": "docs", "url": "https://react.dev/learn/synchronizing-with-effects" },
+    { "id": 16, "skillId": 206, "roadmap": "react", "title": "React Docs: Rendering Lists", "type": "docs", "url": "https://react.dev/learn/rendering-lists" },
+    { "id": 17, "skillId": 207, "roadmap": "react", "title": "React Docs: Reacting to Input with State", "type": "docs", "url": "https://react.dev/learn/reacting-to-input-with-state" },
+    { "id": 18, "skillId": 208, "roadmap": "react", "title": "React Docs: Passing Data Deeply with Context", "type": "docs", "url": "https://react.dev/learn/passing-data-deeply-with-context" },
+    { "id": 19, "skillId": 209, "roadmap": "react", "title": "React Router Documentation", "type": "docs", "url": "https://reactrouter.com" },
+    { "id": 20, "skillId": 210, "roadmap": "react", "title": "React Docs: Reusing Logic with Custom Hooks", "type": "docs", "url": "https://react.dev/learn/reusing-logic-with-custom-hooks" },
+
+    { "id": 21, "skillId": 301, "roadmap": "backend", "title": "Node.js Official Documentation", "type": "docs", "url": "https://nodejs.org/en/docs" },
+    { "id": 22, "skillId": 302, "roadmap": "backend", "title": "npm Docs: About Packages and Modules", "type": "docs", "url": "https://docs.npmjs.com/about-packages-and-modules" },
+    { "id": 23, "skillId": 303, "roadmap": "backend", "title": "Express.js Guide", "type": "docs", "url": "https://expressjs.com/en/guide/routing.html" },
+    { "id": 24, "skillId": 304, "roadmap": "backend", "title": "RESTful API Design Best Practices", "type": "article", "url": "https://restfulapi.net" },
+    { "id": 25, "skillId": 305, "roadmap": "backend", "title": "Express.js: Using Middleware", "type": "docs", "url": "https://expressjs.com/en/guide/using-middleware.html" },
+    { "id": 26, "skillId": 306, "roadmap": "backend", "title": "JWT.io: Introduction to JSON Web Tokens", "type": "docs", "url": "https://jwt.io/introduction" },
+    { "id": 27, "skillId": 307, "roadmap": "backend", "title": "SQL Tutorial", "type": "docs", "url": "https://www.w3schools.com/sql/" },
+    { "id": 28, "skillId": 308, "roadmap": "backend", "title": "Mongoose Documentation", "type": "docs", "url": "https://mongoosejs.com/docs/" },
+    { "id": 29, "skillId": 309, "roadmap": "backend", "title": "Express.js: Error Handling", "type": "docs", "url": "https://expressjs.com/en/guide/error-handling.html" },
+    { "id": 30, "skillId": 310, "roadmap": "backend", "title": "Deploying Node.js Apps", "type": "article", "url": "https://render.com/docs/deploy-node-express-app" },
+
+    { "id": 31, "skillId": 401, "roadmap": "dsa", "title": "Big O Cheat Sheet", "type": "article", "url": "https://www.bigocheatsheet.com" },
+    { "id": 32, "skillId": 402, "roadmap": "dsa", "title": "GeeksforGeeks: Arrays", "type": "docs", "url": "https://www.geeksforgeeks.org/array-data-structure/" },
+    { "id": 33, "skillId": 403, "roadmap": "dsa", "title": "GeeksforGeeks: Hashing", "type": "docs", "url": "https://www.geeksforgeeks.org/hashing-data-structure/" },
+    { "id": 34, "skillId": 404, "roadmap": "dsa", "title": "GeeksforGeeks: Linked List", "type": "docs", "url": "https://www.geeksforgeeks.org/data-structures/linked-list/" },
+    { "id": 35, "skillId": 405, "roadmap": "dsa", "title": "GeeksforGeeks: Stack and Queue", "type": "docs", "url": "https://www.geeksforgeeks.org/stack-data-structure/" },
+    { "id": 36, "skillId": 406, "roadmap": "dsa", "title": "GeeksforGeeks: Recursion", "type": "docs", "url": "https://www.geeksforgeeks.org/recursion/" },
+    { "id": 37, "skillId": 407, "roadmap": "dsa", "title": "GeeksforGeeks: Tree Data Structure", "type": "docs", "url": "https://www.geeksforgeeks.org/binary-tree-data-structure/" },
+    { "id": 38, "skillId": 408, "roadmap": "dsa", "title": "GeeksforGeeks: Binary Search", "type": "docs", "url": "https://www.geeksforgeeks.org/binary-search/" },
+    { "id": 39, "skillId": 409, "roadmap": "dsa", "title": "VisuAlgo: Sorting Visualizations", "type": "interactive", "url": "https://visualgo.net/en/sorting" },
+    { "id": 40, "skillId": 410, "roadmap": "dsa", "title": "GeeksforGeeks: Graph Data Structure", "type": "docs", "url": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" },
+    { "id": 41, "skillId": 411, "roadmap": "dsa", "title": "GeeksforGeeks: Dynamic Programming", "type": "docs", "url": "https://www.geeksforgeeks.org/dynamic-programming/" },
+    { "id": 42, "skillId": 412, "roadmap": "dsa", "title": "GeeksforGeeks: Greedy Algorithms", "type": "docs", "url": "https://www.geeksforgeeks.org/greedy-algorithms/" },
+
+    { "id": 43, "skillId": 501, "roadmap": "uiux", "title": "Laws of UX", "type": "article", "url": "https://lawsofux.com" },
+    { "id": 44, "skillId": 502, "roadmap": "uiux", "title": "Interaction Design Foundation: Color Theory", "type": "article", "url": "https://www.interaction-design.org/literature/topics/color-theory" },
+    { "id": 45, "skillId": 503, "roadmap": "uiux", "title": "Interaction Design Foundation: Typography", "type": "article", "url": "https://www.interaction-design.org/literature/topics/typography" },
+    { "id": 46, "skillId": 504, "roadmap": "uiux", "title": "Nielsen Norman Group: Wireframing 101", "type": "article", "url": "https://www.nngroup.com/articles/wireframing/" },
+    { "id": 47, "skillId": 505, "roadmap": "uiux", "title": "Figma Help Center: Getting Started", "type": "docs", "url": "https://help.figma.com/hc/en-us/categories/360002051813-Getting-started" },
+    { "id": 48, "skillId": 506, "roadmap": "uiux", "title": "Figma: Prototyping Basics", "type": "docs", "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma" },
+    { "id": 49, "skillId": 507, "roadmap": "uiux", "title": "Nielsen Norman Group: Usability Testing 101", "type": "article", "url": "https://www.nngroup.com/articles/usability-testing-101/" },
+    { "id": 50, "skillId": 508, "roadmap": "uiux", "title": "Material Design: Design Systems", "type": "docs", "url": "https://m3.material.io" },
+    { "id": 51, "skillId": 509, "roadmap": "uiux", "title": "W3C WAI: Web Content Accessibility Guidelines", "type": "docs", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/" }
+  ],
+
+  "achievements": [
+    { "id": 1, "title": "First Steps", "description": "Complete your first skill.", "icon": "🥇", "type": "first_skill", "xpReward": 25, "unlocked": true },
+    { "id": 2, "title": "Roadmap Rookie", "description": "Complete 5 skills in any roadmap.", "icon": "🌱", "type": "skills_completed_5", "xpReward": 50, "unlocked": false },
+    { "id": 3, "title": "Frontend Finisher", "description": "Complete the entire Frontend roadmap.", "icon": "🌐", "type": "roadmap_complete_frontend", "xpReward": 150, "unlocked": false },
+    { "id": 4, "title": "React Ranger", "description": "Complete the entire React roadmap.", "icon": "⚛️", "type": "roadmap_complete_react", "xpReward": 150, "unlocked": false },
+    { "id": 5, "title": "Backend Builder", "description": "Complete the entire Backend roadmap.", "icon": "🛠️", "type": "roadmap_complete_backend", "xpReward": 150, "unlocked": false },
+    { "id": 6, "title": "Algorithm Ace", "description": "Complete the entire DSA roadmap.", "icon": "🧠", "type": "roadmap_complete_dsa", "xpReward": 200, "unlocked": false },
+    { "id": 7, "title": "Design Devotee", "description": "Complete the entire UI/UX roadmap.", "icon": "🎨", "type": "roadmap_complete_uiux", "xpReward": 150, "unlocked": false },
+    { "id": 8, "title": "On Fire", "description": "Maintain a 7-day learning streak.", "icon": "🔥", "type": "streak_7", "xpReward": 75, "unlocked": false },
+    { "id": 9, "title": "Unstoppable", "description": "Maintain a 30-day learning streak.", "icon": "⚡", "type": "streak_30", "xpReward": 200, "unlocked": false },
+    { "id": 10, "title": "XP Hunter", "description": "Earn 1000 total XP.", "icon": "💎", "type": "xp_1000", "xpReward": 100, "unlocked": false }
+  ],
+
+  "users": 
+    {
+      "id": 1,
+      "name": "Akash",
+      "email": "akash47a@example.com",
+      "avatar": "src/assets/avatar.jpg",
+      "xp": 175,
+      "level":"beginner",
+      "streak": 3,
+      "joinedAt": "2026-05-01T09:00:00.000Z",
+      "lastActiveAt": "2026-06-24T18:30:00.000Z"
+    }
+  ,
+
+  "progress": [
+    { "id": 1, "userId": 1, "roadmap": "frontend", "skillId": 101, "xpEarned": 50, "completedAt": "2026-06-10T10:15:00.000Z" },
+    { "id": 2, "userId": 1, "roadmap": "react", "skillId": 201, "xpEarned": 50, "completedAt": "2026-06-15T14:20:00.000Z" },
+    { "id": 3, "userId": 1, "roadmap": "dsa", "skillId": 401, "xpEarned": 50, "completedAt": "2026-06-20T08:45:00.000Z" },
+    { "id": 4, "userId": 1, "roadmap": "frontend", "skillId": 102, "xpEarned": 25, "completedAt": null }
+  ]
+}
