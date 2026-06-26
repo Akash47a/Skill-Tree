@@ -9,7 +9,19 @@
       "color": "#3B82F6",
       "category": "frontend",
       "totalSkills": 10,
-      "difficulty": "Beginner"
+      "difficulty": "Beginner",
+      "frontend": [
+        { "id": 101, "title": "HTML Basics", "description": "Semantic HTML, tags, and document structure.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 102, "title": "CSS Basics", "description": "Selectors, box model, and styling fundamentals.", "completed": false, "locked": false, "prerequisite": 101, "xp": 50 },
+        { "id": 103, "title": "CSS Flexbox & Grid", "description": "Modern layout systems for responsive design.", "completed": false, "locked": true, "prerequisite": 102, "xp": 75 },
+        { "id": 104, "title": "Responsive Design", "description": "Media queries and mobile-first design.", "completed": false, "locked": true, "prerequisite": 103, "xp": 75 },
+        { "id": 105, "title": "JavaScript Basics", "description": "Variables, functions, loops, and conditionals.", "completed": false, "locked": true, "prerequisite": 101, "xp": 75 },
+        { "id": 106, "title": "DOM Manipulation", "description": "Selecting and updating elements dynamically.", "completed": false, "locked": true, "prerequisite": 105, "xp": 75 },
+        { "id": 107, "title": "ES6+ Features", "description": "Arrow functions, destructuring, spread/rest, modules.", "completed": false, "locked": true, "prerequisite": 106, "xp": 100 },
+        { "id": 108, "title": "Fetch API & AJAX", "description": "Making HTTP requests and handling responses.", "completed": false, "locked": true, "prerequisite": 107, "xp": 100 },
+        { "id": 109, "title": "Git & GitHub", "description": "Version control basics and collaboration workflows.", "completed": false, "locked": true, "prerequisite": 101, "xp": 50 },
+        { "id": 110, "title": "Browser DevTools", "description": "Debugging, inspecting, and profiling in the browser.", "completed": false, "locked": true, "prerequisite": 105, "xp": 50 }
+      ]
     },
     {
       "id": 2,
@@ -20,7 +32,19 @@
       "color": "#61DAFB",
       "category": "react",
       "totalSkills": 10,
-      "difficulty": "Intermediate"
+      "difficulty": "Intermediate",
+      "react": [
+        { "id": 201, "title": "JSX & Components", "description": "Writing JSX and creating functional components.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 202, "title": "Props", "description": "Passing and validating data between components.", "completed": false, "locked": false, "prerequisite": 201, "xp": 50 },
+        { "id": 203, "title": "State & useState", "description": "Managing local component state.", "completed": false, "locked": true, "prerequisite": 202, "xp": 75 },
+        { "id": 204, "title": "Event Handling", "description": "Handling user interactions with synthetic events.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
+        { "id": 205, "title": "useEffect & Lifecycle", "description": "Side effects, data fetching, and cleanup.", "completed": false, "locked": true, "prerequisite": 204, "xp": 100 },
+        { "id": 206, "title": "Conditional Rendering & Lists", "description": "Rendering UI conditionally and mapping over data.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
+        { "id": 207, "title": "Forms & Controlled Components", "description": "Managing form inputs and validation in React.", "completed": false, "locked": true, "prerequisite": 204, "xp": 75 },
+        { "id": 208, "title": "Context API", "description": "Sharing state globally without prop drilling.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
+        { "id": 209, "title": "React Router", "description": "Client-side routing and nested routes.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
+        { "id": 210, "title": "Custom Hooks", "description": "Extracting and reusing component logic.", "completed": false, "locked": true, "prerequisite": 208, "xp": 125 }
+      ]
     },
     {
       "id": 3,
@@ -31,7 +55,19 @@
       "color": "#22C55E",
       "category": "backend",
       "totalSkills": 10,
-      "difficulty": "Intermediate"
+      "difficulty": "Intermediate",
+      "backend": [
+        { "id": 301, "title": "Node.js Basics", "description": "The Node runtime, modules, and the event loop.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 302, "title": "NPM & Modules", "description": "Package management and the module system.", "completed": false, "locked": true, "prerequisite": 301, "xp": 50 },
+        { "id": 303, "title": "Express.js Fundamentals", "description": "Routing, middleware, and request handling.", "completed": false, "locked": true, "prerequisite": 302, "xp": 75 },
+        { "id": 304, "title": "REST API Design", "description": "Designing clean, resource-based APIs.", "completed": false, "locked": true, "prerequisite": 303, "xp": 100 },
+        { "id": 305, "title": "Middleware", "description": "Custom and third-party middleware patterns.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
+        { "id": 306, "title": "Authentication & JWT", "description": "Securing routes with tokens and sessions.", "completed": false, "locked": true, "prerequisite": 305, "xp": 100 },
+        { "id": 307, "title": "Databases - SQL Basics", "description": "Relational schemas and SQL queries.", "completed": false, "locked": true, "prerequisite": 301, "xp": 75 },
+        { "id": 308, "title": "MongoDB & Mongoose", "description": "NoSQL data modeling with Mongoose ODM.", "completed": false, "locked": true, "prerequisite": 301, "xp": 100 },
+        { "id": 309, "title": "Error Handling", "description": "Centralized error handling and status codes.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
+        { "id": 310, "title": "Deployment Basics", "description": "Deploying Node apps to the cloud.", "completed": false, "locked": true, "prerequisite": 306, "xp": 100 }
+      ]
     },
     {
       "id": 4,
@@ -42,7 +78,21 @@
       "color": "#F97316",
       "category": "dsa",
       "totalSkills": 12,
-      "difficulty": "Advanced"
+      "difficulty": "Advanced",
+      "dsa": [
+        { "id": 401, "title": "Big O Notation", "description": "Analyzing time and space complexity.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 402, "title": "Arrays & Strings", "description": "Core operations and common patterns.", "completed": false, "locked": false, "prerequisite": 401, "xp": 75 },
+        { "id": 403, "title": "Hashing", "description": "Hash maps and sets for fast lookups.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+        { "id": 404, "title": "Linked Lists", "description": "Singly and doubly linked list operations.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+        { "id": 405, "title": "Stacks & Queues", "description": "LIFO/FIFO structures and use cases.", "completed": false, "locked": true, "prerequisite": 404, "xp": 75 },
+        { "id": 406, "title": "Recursion", "description": "Recursive thinking and base cases.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
+        { "id": 407, "title": "Trees", "description": "Binary trees, traversals, and BSTs.", "completed": false, "locked": true, "prerequisite": 406, "xp": 100 },
+        { "id": 408, "title": "Binary Search", "description": "Search in sorted structures efficiently.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
+        { "id": 409, "title": "Sorting Algorithms", "description": "Bubble, merge, quick sort, and complexity tradeoffs.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
+        { "id": 410, "title": "Graphs", "description": "Graph representations, BFS, and DFS.", "completed": false, "locked": true, "prerequisite": 407, "xp": 125 },
+        { "id": 411, "title": "Dynamic Programming", "description": "Memoization and tabulation techniques.", "completed": false, "locked": true, "prerequisite": 406, "xp": 150 },
+        { "id": 412, "title": "Greedy Algorithms", "description": "Making locally optimal choices.", "completed": false, "locked": true, "prerequisite": 409, "xp": 100 }
+      ]
     },
     {
       "id": 5,
@@ -53,76 +103,135 @@
       "color": "#EC4899",
       "category": "uiux",
       "totalSkills": 9,
-      "difficulty": "Beginner"
+      "difficulty": "Beginner",
+      "uiux": [
+        { "id": 501, "title": "Design Principles", "description": "Contrast, alignment, repetition, proximity.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 502, "title": "Color Theory", "description": "Color harmony, contrast, and accessibility.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
+        { "id": 503, "title": "Typography", "description": "Font pairing, hierarchy, and readability.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
+        { "id": 504, "title": "Wireframing", "description": "Low-fidelity layout planning.", "completed": false, "locked": true, "prerequisite": 501, "xp": 75 },
+        { "id": 505, "title": "Figma Basics", "description": "Frames, components, and auto layout.", "completed": false, "locked": true, "prerequisite": 504, "xp": 75 },
+        { "id": 506, "title": "Prototyping", "description": "Interactive flows and transitions.", "completed": false, "locked": true, "prerequisite": 505, "xp": 100 },
+        { "id": 507, "title": "Usability Testing", "description": "Gathering and applying user feedback.", "completed": false, "locked": true, "prerequisite": 506, "xp": 100 },
+        { "id": 508, "title": "Design Systems", "description": "Reusable components and style guides.", "completed": false, "locked": true, "prerequisite": 503, "xp": 100 },
+        { "id": 509, "title": "Accessibility (a11y)", "description": "Designing for all users and assistive tech.", "completed": false, "locked": true, "prerequisite": 508, "xp": 100 }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "typescript",
+      "title": "TypeScript",
+      "description": "Add static typing to JavaScript and build safer, more maintainable applications.",
+      "icon": "🔷",
+      "color": "#3178C6",
+      "category": "typescript",
+      "totalSkills": 10,
+      "difficulty": "Intermediate",
+      "typescript": [
+        { "id": 601, "title": "TypeScript Basics & Setup", "description": "Installing TypeScript and configuring tsconfig.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 602, "title": "Type Annotations & Inference", "description": "Explicit types and how TypeScript infers them.", "completed": false, "locked": true, "prerequisite": 601, "xp": 50 },
+        { "id": 603, "title": "Interfaces & Type Aliases", "description": "Defining shapes of objects and reusable types.", "completed": false, "locked": true, "prerequisite": 602, "xp": 75 },
+        { "id": 604, "title": "Functions & Generics", "description": "Typing functions and writing reusable generic code.", "completed": false, "locked": true, "prerequisite": 603, "xp": 100 },
+        { "id": 605, "title": "Union & Intersection Types", "description": "Combining types for flexible, precise modeling.", "completed": false, "locked": true, "prerequisite": 604, "xp": 75 },
+        { "id": 606, "title": "Enums & Tuples", "description": "Fixed sets of values and ordered, typed arrays.", "completed": false, "locked": true, "prerequisite": 602, "xp": 50 },
+        { "id": 607, "title": "Classes & Access Modifiers", "description": "OOP in TypeScript with public/private/protected.", "completed": false, "locked": true, "prerequisite": 603, "xp": 75 },
+        { "id": 608, "title": "Utility Types", "description": "Partial, Pick, Omit, Record, and other built-ins.", "completed": false, "locked": true, "prerequisite": 605, "xp": 100 },
+        { "id": 609, "title": "Type Narrowing & Guards", "description": "Safely narrowing union types at runtime.", "completed": false, "locked": true, "prerequisite": 605, "xp": 100 },
+        { "id": 610, "title": "TypeScript with React", "description": "Typing props, state, hooks, and events in React.", "completed": false, "locked": true, "prerequisite": 608, "xp": 125 }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "python",
+      "title": "Python Programming",
+      "description": "Learn Python from the fundamentals through OOP, error handling, and working with real APIs.",
+      "icon": "🐍",
+      "color": "#3776AB",
+      "category": "python",
+      "totalSkills": 10,
+      "difficulty": "Beginner",
+      "python": [
+        { "id": 701, "title": "Python Basics & Syntax", "description": "Installing Python and writing your first scripts.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 702, "title": "Data Types & Variables", "description": "Numbers, strings, booleans, and type conversion.", "completed": false, "locked": true, "prerequisite": 701, "xp": 50 },
+        { "id": 703, "title": "Control Flow", "description": "If statements, loops, and boolean logic.", "completed": false, "locked": true, "prerequisite": 701, "xp": 50 },
+        { "id": 704, "title": "Functions & Scope", "description": "Defining functions, arguments, and variable scope.", "completed": false, "locked": true, "prerequisite": 703, "xp": 75 },
+        { "id": 705, "title": "Lists, Tuples & Dictionaries", "description": "Core Python data structures and their methods.", "completed": false, "locked": true, "prerequisite": 702, "xp": 75 },
+        { "id": 706, "title": "File Handling", "description": "Reading from and writing to files.", "completed": false, "locked": true, "prerequisite": 704, "xp": 75 },
+        { "id": 707, "title": "Object-Oriented Programming", "description": "Classes, objects, inheritance, and polymorphism.", "completed": false, "locked": true, "prerequisite": 704, "xp": 100 },
+        { "id": 708, "title": "Error Handling & Exceptions", "description": "Try/except blocks and custom exceptions.", "completed": false, "locked": true, "prerequisite": 704, "xp": 75 },
+        { "id": 709, "title": "Modules & Packages", "description": "Organizing code and using pip-installed libraries.", "completed": false, "locked": true, "prerequisite": 707, "xp": 75 },
+        { "id": 710, "title": "Working with APIs", "description": "Making HTTP requests with the requests library.", "completed": false, "locked": true, "prerequisite": 709, "xp": 100 }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "devops",
+      "title": "DevOps & Cloud",
+      "description": "Learn Linux, Git, Docker, CI/CD, Kubernetes, and cloud fundamentals for shipping software reliably.",
+      "icon": "☁️",
+      "color": "#FF9900",
+      "category": "devops",
+      "totalSkills": 10,
+      "difficulty": "Advanced",
+      "devops": [
+        { "id": 801, "title": "Linux & Command Line Basics", "description": "Navigating the filesystem and core shell commands.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 802, "title": "Version Control with Git", "description": "Branching, merging, and collaborative workflows.", "completed": false, "locked": true, "prerequisite": 801, "xp": 50 },
+        { "id": 803, "title": "CI/CD Fundamentals", "description": "Automating builds, tests, and deployments.", "completed": false, "locked": true, "prerequisite": 802, "xp": 100 },
+        { "id": 804, "title": "Docker Basics", "description": "Images, containers, and the Dockerfile.", "completed": false, "locked": true, "prerequisite": 801, "xp": 100 },
+        { "id": 805, "title": "Docker Compose & Multi-Container Apps", "description": "Orchestrating multiple services locally.", "completed": false, "locked": true, "prerequisite": 804, "xp": 100 },
+        { "id": 806, "title": "Introduction to Kubernetes", "description": "Pods, deployments, and services at a high level.", "completed": false, "locked": true, "prerequisite": 805, "xp": 150 },
+        { "id": 807, "title": "Cloud Computing Basics", "description": "Core concepts across AWS, Azure, and GCP.", "completed": false, "locked": true, "prerequisite": 801, "xp": 100 },
+        { "id": 808, "title": "Infrastructure as Code", "description": "Provisioning cloud resources with Terraform.", "completed": false, "locked": true, "prerequisite": 807, "xp": 125 },
+        { "id": 809, "title": "Monitoring & Logging", "description": "Observability with metrics, logs, and alerts.", "completed": false, "locked": true, "prerequisite": 803, "xp": 100 },
+        { "id": 810, "title": "Deployment Strategies", "description": "Blue-green, canary, and rolling deployments.", "completed": false, "locked": true, "prerequisite": 806, "xp": 125 }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "mobile",
+      "title": "Mobile Development",
+      "description": "Build cross-platform mobile apps with React Native, from components to app store deployment.",
+      "icon": "📱",
+      "color": "#A4C639",
+      "category": "mobile",
+      "totalSkills": 10,
+      "difficulty": "Intermediate",
+      "mobile": [
+        { "id": 901, "title": "React Native Basics", "description": "Setting up a project and understanding the architecture.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
+        { "id": 902, "title": "Core Components & Styling", "description": "View, Text, Image, and Flexbox-based styling.", "completed": false, "locked": true, "prerequisite": 901, "xp": 50 },
+        { "id": 903, "title": "Navigation", "description": "Stack, tab, and drawer navigation patterns.", "completed": false, "locked": true, "prerequisite": 902, "xp": 75 },
+        { "id": 904, "title": "Handling Device APIs", "description": "Accessing camera, location, and sensors.", "completed": false, "locked": true, "prerequisite": 902, "xp": 100 },
+        { "id": 905, "title": "State Management in Mobile Apps", "description": "Managing app-wide state on mobile.", "completed": false, "locked": true, "prerequisite": 903, "xp": 100 },
+        { "id": 906, "title": "Networking & APIs in Mobile", "description": "Fetching and caching data on mobile devices.", "completed": false, "locked": true, "prerequisite": 905, "xp": 75 },
+        { "id": 907, "title": "Push Notifications", "description": "Sending and handling local and remote notifications.", "completed": false, "locked": true, "prerequisite": 906, "xp": 100 },
+        { "id": 908, "title": "App Performance Optimization", "description": "Reducing re-renders and optimizing list rendering.", "completed": false, "locked": true, "prerequisite": 906, "xp": 100 },
+        { "id": 909, "title": "Publishing to App Store & Play Store", "description": "Build configs, signing, and submission process.", "completed": false, "locked": true, "prerequisite": 908, "xp": 125 },
+        { "id": 910, "title": "Testing Mobile Apps", "description": "Unit and end-to-end testing for mobile.", "completed": false, "locked": true, "prerequisite": 908, "xp": 100 }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "system_design",
+      "title": "System Design",
+      "description": "Learn to design scalable, reliable systems: load balancing, caching, sharding, and microservices.",
+      "icon": "🏗️",
+      "color": "#6366F1",
+      "category": "system-design",
+      "totalSkills": 10,
+      "difficulty": "Advanced",
+      "system_design": [
+        { "id": 1001, "title": "System Design Fundamentals", "description": "Functional vs non-functional requirements, trade-offs.", "completed": false, "locked": false, "prerequisite": null, "xp": 75 },
+        { "id": 1002, "title": "Scalability Basics", "description": "Vertical vs horizontal scaling.", "completed": false, "locked": true, "prerequisite": 1001, "xp": 75 },
+        { "id": 1003, "title": "Load Balancing", "description": "Distributing traffic across servers.", "completed": false, "locked": true, "prerequisite": 1002, "xp": 100 },
+        { "id": 1004, "title": "Caching Strategies", "description": "Cache-aside, write-through, and eviction policies.", "completed": false, "locked": true, "prerequisite": 1002, "xp": 100 },
+        { "id": 1005, "title": "Database Sharding & Replication", "description": "Scaling databases horizontally and for redundancy.", "completed": false, "locked": true, "prerequisite": 1003, "xp": 125 },
+        { "id": 1006, "title": "Microservices Architecture", "description": "Breaking monoliths into independent services.", "completed": false, "locked": true, "prerequisite": 1003, "xp": 125 },
+        { "id": 1007, "title": "Message Queues", "description": "Asynchronous communication with Kafka or RabbitMQ.", "completed": false, "locked": true, "prerequisite": 1006, "xp": 125 },
+        { "id": 1008, "title": "CAP Theorem & Consistency Models", "description": "Trade-offs between consistency, availability, partition tolerance.", "completed": false, "locked": true, "prerequisite": 1004, "xp": 125 },
+        { "id": 1009, "title": "API Gateway & Rate Limiting", "description": "Centralizing access control and throttling requests.", "completed": false, "locked": true, "prerequisite": 1006, "xp": 100 },
+        { "id": 1010, "title": "Designing a URL Shortener", "description": "End-to-end case study applying core concepts.", "completed": false, "locked": true, "prerequisite": 1008, "xp": 150 }
+      ]
     }
   ],
-
-  "frontend": [
-    { "id": 101, "title": "HTML Basics", "description": "Semantic HTML, tags, and document structure.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-    { "id": 102, "title": "CSS Basics", "description": "Selectors, box model, and styling fundamentals.", "completed": false, "locked": false, "prerequisite": 101, "xp": 50 },
-    { "id": 103, "title": "CSS Flexbox & Grid", "description": "Modern layout systems for responsive design.", "completed": false, "locked": true, "prerequisite": 102, "xp": 75 },
-    { "id": 104, "title": "Responsive Design", "description": "Media queries and mobile-first design.", "completed": false, "locked": true, "prerequisite": 103, "xp": 75 },
-    { "id": 105, "title": "JavaScript Basics", "description": "Variables, functions, loops, and conditionals.", "completed": false, "locked": true, "prerequisite": 101, "xp": 75 },
-    { "id": 106, "title": "DOM Manipulation", "description": "Selecting and updating elements dynamically.", "completed": false, "locked": true, "prerequisite": 105, "xp": 75 },
-    { "id": 107, "title": "ES6+ Features", "description": "Arrow functions, destructuring, spread/rest, modules.", "completed": false, "locked": true, "prerequisite": 106, "xp": 100 },
-    { "id": 108, "title": "Fetch API & AJAX", "description": "Making HTTP requests and handling responses.", "completed": false, "locked": true, "prerequisite": 107, "xp": 100 },
-    { "id": 109, "title": "Git & GitHub", "description": "Version control basics and collaboration workflows.", "completed": false, "locked": true, "prerequisite": 101, "xp": 50 },
-    { "id": 110, "title": "Browser DevTools", "description": "Debugging, inspecting, and profiling in the browser.", "completed": false, "locked": true, "prerequisite": 105, "xp": 50 }
-  ],
-
-  "react": [
-    { "id": 201, "title": "JSX & Components", "description": "Writing JSX and creating functional components.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-    { "id": 202, "title": "Props", "description": "Passing and validating data between components.", "completed": false, "locked": false, "prerequisite": 201, "xp": 50 },
-    { "id": 203, "title": "State & useState", "description": "Managing local component state.", "completed": false, "locked": true, "prerequisite": 202, "xp": 75 },
-    { "id": 204, "title": "Event Handling", "description": "Handling user interactions with synthetic events.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
-    { "id": 205, "title": "useEffect & Lifecycle", "description": "Side effects, data fetching, and cleanup.", "completed": false, "locked": true, "prerequisite": 204, "xp": 100 },
-    { "id": 206, "title": "Conditional Rendering & Lists", "description": "Rendering UI conditionally and mapping over data.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
-    { "id": 207, "title": "Forms & Controlled Components", "description": "Managing form inputs and validation in React.", "completed": false, "locked": true, "prerequisite": 204, "xp": 75 },
-    { "id": 208, "title": "Context API", "description": "Sharing state globally without prop drilling.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
-    { "id": 209, "title": "React Router", "description": "Client-side routing and nested routes.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
-    { "id": 210, "title": "Custom Hooks", "description": "Extracting and reusing component logic.", "completed": false, "locked": true, "prerequisite": 208, "xp": 125 }
-  ],
-
-  "backend": [
-    { "id": 301, "title": "Node.js Basics", "description": "The Node runtime, modules, and the event loop.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-    { "id": 302, "title": "NPM & Modules", "description": "Package management and the module system.", "completed": false, "locked": true, "prerequisite": 301, "xp": 50 },
-    { "id": 303, "title": "Express.js Fundamentals", "description": "Routing, middleware, and request handling.", "completed": false, "locked": true, "prerequisite": 302, "xp": 75 },
-    { "id": 304, "title": "REST API Design", "description": "Designing clean, resource-based APIs.", "completed": false, "locked": true, "prerequisite": 303, "xp": 100 },
-    { "id": 305, "title": "Middleware", "description": "Custom and third-party middleware patterns.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
-    { "id": 306, "title": "Authentication & JWT", "description": "Securing routes with tokens and sessions.", "completed": false, "locked": true, "prerequisite": 305, "xp": 100 },
-    { "id": 307, "title": "Databases - SQL Basics", "description": "Relational schemas and SQL queries.", "completed": false, "locked": true, "prerequisite": 301, "xp": 75 },
-    { "id": 308, "title": "MongoDB & Mongoose", "description": "NoSQL data modeling with Mongoose ODM.", "completed": false, "locked": true, "prerequisite": 301, "xp": 100 },
-    { "id": 309, "title": "Error Handling", "description": "Centralized error handling and status codes.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
-    { "id": 310, "title": "Deployment Basics", "description": "Deploying Node apps to the cloud.", "completed": false, "locked": true, "prerequisite": 306, "xp": 100 }
-  ],
-
-  "dsa": [
-    { "id": 401, "title": "Big O Notation", "description": "Analyzing time and space complexity.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-    { "id": 402, "title": "Arrays & Strings", "description": "Core operations and common patterns.", "completed": false, "locked": false, "prerequisite": 401, "xp": 75 },
-    { "id": 403, "title": "Hashing", "description": "Hash maps and sets for fast lookups.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-    { "id": 404, "title": "Linked Lists", "description": "Singly and doubly linked list operations.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-    { "id": 405, "title": "Stacks & Queues", "description": "LIFO/FIFO structures and use cases.", "completed": false, "locked": true, "prerequisite": 404, "xp": 75 },
-    { "id": 406, "title": "Recursion", "description": "Recursive thinking and base cases.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
-    { "id": 407, "title": "Trees", "description": "Binary trees, traversals, and BSTs.", "completed": false, "locked": true, "prerequisite": 406, "xp": 100 },
-    { "id": 408, "title": "Binary Search", "description": "Search in sorted structures efficiently.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-    { "id": 409, "title": "Sorting Algorithms", "description": "Bubble, merge, quick sort, and complexity tradeoffs.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
-    { "id": 410, "title": "Graphs", "description": "Graph representations, BFS, and DFS.", "completed": false, "locked": true, "prerequisite": 407, "xp": 125 },
-    { "id": 411, "title": "Dynamic Programming", "description": "Memoization and tabulation techniques.", "completed": false, "locked": true, "prerequisite": 406, "xp": 150 },
-    { "id": 412, "title": "Greedy Algorithms", "description": "Making locally optimal choices.", "completed": false, "locked": true, "prerequisite": 409, "xp": 100 }
-  ],
-
-  "uiux": [
-    { "id": 501, "title": "Design Principles", "description": "Contrast, alignment, repetition, proximity.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-    { "id": 502, "title": "Color Theory", "description": "Color harmony, contrast, and accessibility.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
-    { "id": 503, "title": "Typography", "description": "Font pairing, hierarchy, and readability.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
-    { "id": 504, "title": "Wireframing", "description": "Low-fidelity layout planning.", "completed": false, "locked": true, "prerequisite": 501, "xp": 75 },
-    { "id": 505, "title": "Figma Basics", "description": "Frames, components, and auto layout.", "completed": false, "locked": true, "prerequisite": 504, "xp": 75 },
-    { "id": 506, "title": "Prototyping", "description": "Interactive flows and transitions.", "completed": false, "locked": true, "prerequisite": 505, "xp": 100 },
-    { "id": 507, "title": "Usability Testing", "description": "Gathering and applying user feedback.", "completed": false, "locked": true, "prerequisite": 506, "xp": 100 },
-    { "id": 508, "title": "Design Systems", "description": "Reusable components and style guides.", "completed": false, "locked": true, "prerequisite": 503, "xp": 100 },
-    { "id": 509, "title": "Accessibility (a11y)", "description": "Designing for all users and assistive tech.", "completed": false, "locked": true, "prerequisite": 508, "xp": 100 }
-  ],
-
   "resources": [
     { "id": 1, "skillId": 101, "roadmap": "frontend", "title": "MDN: HTML Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML" },
     { "id": 2, "skillId": 102, "roadmap": "frontend", "title": "MDN: CSS Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS" },
@@ -178,7 +287,62 @@
     { "id": 48, "skillId": 506, "roadmap": "uiux", "title": "Figma: Prototyping Basics", "type": "docs", "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma" },
     { "id": 49, "skillId": 507, "roadmap": "uiux", "title": "Nielsen Norman Group: Usability Testing 101", "type": "article", "url": "https://www.nngroup.com/articles/usability-testing-101/" },
     { "id": 50, "skillId": 508, "roadmap": "uiux", "title": "Material Design: Design Systems", "type": "docs", "url": "https://m3.material.io" },
-    { "id": 51, "skillId": 509, "roadmap": "uiux", "title": "W3C WAI: Web Content Accessibility Guidelines", "type": "docs", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/" }
+    { "id": 51, "skillId": 509, "roadmap": "uiux", "title": "W3C WAI: Web Content Accessibility Guidelines", "type": "docs", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/" },
+
+    { "id": 52, "skillId": 601, "roadmap": "typescript", "title": "TypeScript Docs: Get Started", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/intro.html" },
+    { "id": 53, "skillId": 602, "roadmap": "typescript", "title": "TypeScript Handbook: Basic Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html" },
+    { "id": 54, "skillId": 603, "roadmap": "typescript", "title": "TypeScript Handbook: Object Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html" },
+    { "id": 55, "skillId": 604, "roadmap": "typescript", "title": "TypeScript Handbook: Generics", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html" },
+    { "id": 56, "skillId": 605, "roadmap": "typescript", "title": "TypeScript Handbook: Union Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html" },
+    { "id": 57, "skillId": 606, "roadmap": "typescript", "title": "TypeScript Handbook: Enums", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/enums.html" },
+    { "id": 58, "skillId": 607, "roadmap": "typescript", "title": "TypeScript Handbook: Classes", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html" },
+    { "id": 59, "skillId": 608, "roadmap": "typescript", "title": "TypeScript Handbook: Utility Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html" },
+    { "id": 60, "skillId": 609, "roadmap": "typescript", "title": "TypeScript Handbook: Narrowing", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html" },
+    { "id": 61, "skillId": 610, "roadmap": "typescript", "title": "React + TypeScript Cheatsheet", "type": "docs", "url": "https://react-typescript-cheatsheet.netlify.app" },
+
+    { "id": 62, "skillId": 701, "roadmap": "python", "title": "Python Official Tutorial", "type": "docs", "url": "https://docs.python.org/3/tutorial/index.html" },
+    { "id": 63, "skillId": 702, "roadmap": "python", "title": "Python Docs: Built-in Types", "type": "docs", "url": "https://docs.python.org/3/library/stdtypes.html" },
+    { "id": 64, "skillId": 703, "roadmap": "python", "title": "Python Docs: Control Flow", "type": "docs", "url": "https://docs.python.org/3/tutorial/controlflow.html" },
+    { "id": 65, "skillId": 704, "roadmap": "python", "title": "Python Docs: Defining Functions", "type": "docs", "url": "https://docs.python.org/3/tutorial/controlflow.html" },
+    { "id": 66, "skillId": 705, "roadmap": "python", "title": "Python Docs: Data Structures", "type": "docs", "url": "https://docs.python.org/3/tutorial/datastructures.html" },
+    { "id": 67, "skillId": 706, "roadmap": "python", "title": "Python Docs: Reading and Writing Files", "type": "docs", "url": "https://docs.python.org/3/tutorial/inputoutput.html" },
+    { "id": 68, "skillId": 707, "roadmap": "python", "title": "Python Docs: Classes", "type": "docs", "url": "https://docs.python.org/3/tutorial/classes.html" },
+    { "id": 69, "skillId": 708, "roadmap": "python", "title": "Python Docs: Errors and Exceptions", "type": "docs", "url": "https://docs.python.org/3/tutorial/errors.html" },
+    { "id": 70, "skillId": 709, "roadmap": "python", "title": "Python Docs: Modules", "type": "docs", "url": "https://docs.python.org/3/tutorial/modules.html" },
+    { "id": 71, "skillId": 710, "roadmap": "python", "title": "Requests Library Documentation", "type": "docs", "url": "https://requests.readthedocs.io/en/latest/" },
+
+    { "id": 72, "skillId": 801, "roadmap": "devops", "title": "Linux Command Line Basics", "type": "docs", "url": "https://ubuntu.com/tutorials/command-line-for-beginners" },
+    { "id": 73, "skillId": 802, "roadmap": "devops", "title": "Git Documentation", "type": "docs", "url": "https://git-scm.com/doc" },
+    { "id": 74, "skillId": 803, "roadmap": "devops", "title": "GitHub Actions: About Continuous Integration", "type": "docs", "url": "https://docs.github.com/en/actions/about-github-actions/about-continuous-integration" },
+    { "id": 75, "skillId": 804, "roadmap": "devops", "title": "Docker: Get Started Guide", "type": "docs", "url": "https://docs.docker.com/get-started/" },
+    { "id": 76, "skillId": 805, "roadmap": "devops", "title": "Docker Compose Overview", "type": "docs", "url": "https://docs.docker.com/compose/" },
+    { "id": 77, "skillId": 806, "roadmap": "devops", "title": "Kubernetes Documentation: Concepts", "type": "docs", "url": "https://kubernetes.io/docs/concepts/" },
+    { "id": 78, "skillId": 807, "roadmap": "devops", "title": "AWS Cloud Practitioner Essentials", "type": "docs", "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/" },
+    { "id": 79, "skillId": 808, "roadmap": "devops", "title": "Terraform Documentation", "type": "docs", "url": "https://developer.hashicorp.com/terraform/docs" },
+    { "id": 80, "skillId": 809, "roadmap": "devops", "title": "Grafana: Introduction to Observability", "type": "docs", "url": "https://grafana.com/docs/grafana/latest/introduction/" },
+    { "id": 81, "skillId": 810, "roadmap": "devops", "title": "Martin Fowler: Blue-Green Deployment", "type": "article", "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html" },
+
+    { "id": 82, "skillId": 901, "roadmap": "mobile", "title": "React Native Documentation", "type": "docs", "url": "https://reactnative.dev/docs/getting-started" },
+    { "id": 83, "skillId": 902, "roadmap": "mobile", "title": "React Native: Core Components", "type": "docs", "url": "https://reactnative.dev/docs/components-and-apis" },
+    { "id": 84, "skillId": 903, "roadmap": "mobile", "title": "React Navigation Documentation", "type": "docs", "url": "https://reactnavigation.org/docs/getting-started" },
+    { "id": 85, "skillId": 904, "roadmap": "mobile", "title": "Expo Documentation: Camera", "type": "docs", "url": "https://docs.expo.dev/versions/latest/sdk/camera/" },
+    { "id": 86, "skillId": 905, "roadmap": "mobile", "title": "React Native: Managing State", "type": "docs", "url": "https://reactnative.dev/docs/state" },
+    { "id": 87, "skillId": 906, "roadmap": "mobile", "title": "React Native: Networking", "type": "docs", "url": "https://reactnative.dev/docs/network" },
+    { "id": 88, "skillId": 907, "roadmap": "mobile", "title": "Expo Documentation: Push Notifications", "type": "docs", "url": "https://docs.expo.dev/push-notifications/overview/" },
+    { "id": 89, "skillId": 908, "roadmap": "mobile", "title": "React Native: Performance Overview", "type": "docs", "url": "https://reactnative.dev/docs/performance" },
+    { "id": 90, "skillId": 909, "roadmap": "mobile", "title": "Expo Documentation: Distribution", "type": "docs", "url": "https://docs.expo.dev/distribution/introduction/" },
+    { "id": 91, "skillId": 910, "roadmap": "mobile", "title": "React Native Testing Library", "type": "docs", "url": "https://callstack.github.io/react-native-testing-library/" },
+
+    { "id": 92, "skillId": 1001, "roadmap": "system_design", "title": "System Design Primer (GitHub)", "type": "docs", "url": "https://github.com/donnemartin/system-design-primer" },
+    { "id": 93, "skillId": 1002, "roadmap": "system_design", "title": "AWS: Horizontal vs Vertical Scaling", "type": "article", "url": "https://aws.amazon.com/what-is/horizontal-scaling/" },
+    { "id": 94, "skillId": 1003, "roadmap": "system_design", "title": "NGINX: What Is Load Balancing", "type": "article", "url": "https://www.nginx.com/resources/glossary/load-balancing/" },
+    { "id": 95, "skillId": 1004, "roadmap": "system_design", "title": "AWS: Caching Overview", "type": "article", "url": "https://aws.amazon.com/caching/" },
+    { "id": 96, "skillId": 1005, "roadmap": "system_design", "title": "MongoDB: Sharding Documentation", "type": "docs", "url": "https://www.mongodb.com/docs/manual/sharding/" },
+    { "id": 97, "skillId": 1006, "roadmap": "system_design", "title": "Martin Fowler: Microservices", "type": "article", "url": "https://martinfowler.com/articles/microservices.html" },
+    { "id": 98, "skillId": 1007, "roadmap": "system_design", "title": "Apache Kafka Documentation", "type": "docs", "url": "https://kafka.apache.org/documentation/" },
+    { "id": 99, "skillId": 1008, "roadmap": "system_design", "title": "IBM: CAP Theorem Explained", "type": "article", "url": "https://www.ibm.com/topics/cap-theorem" },
+    { "id": 100, "skillId": 1009, "roadmap": "system_design", "title": "AWS: What Is an API Gateway", "type": "article", "url": "https://aws.amazon.com/api-gateway/" },
+    { "id": 101, "skillId": 1010, "roadmap": "system_design", "title": "System Design Primer: Designing a URL Shortener", "type": "docs", "url": "https://github.com/donnemartin/system-design-primer#design-a-url-shortener" }
   ],
 
   "achievements": [
@@ -194,19 +358,19 @@
     { "id": 10, "title": "XP Hunter", "description": "Earn 1000 total XP.", "icon": "💎", "type": "xp_1000", "xpReward": 100, "unlocked": false }
   ],
 
-  "users": 
+  "users": [
     {
       "id": 1,
       "name": "Akash",
       "email": "akash47a@example.com",
       "avatar": "src/assets/avatar.jpg",
       "xp": 175,
-      "level":"beginner",
+      "level": "beginner",
       "streak": 3,
       "joinedAt": "2026-05-01T09:00:00.000Z",
       "lastActiveAt": "2026-06-24T18:30:00.000Z"
     }
-  ,
+  ],
 
   "progress": [
     { "id": 1, "userId": 1, "roadmap": "frontend", "skillId": 101, "xpEarned": 50, "completedAt": "2026-06-10T10:15:00.000Z" },

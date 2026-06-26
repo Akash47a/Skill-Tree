@@ -16,7 +16,7 @@ function Profile(props) {
           <p>{props.email}</p>
         </div>
         <div className='list'>
-          <div className="acheve"><span>XP earn:</span><h5>{props.xp}<i class="xp bi bi-lightning-charge-fill"></i></h5></div><hr />
+          <div className="acheve"><span>XP earn:</span><h5>{props.xp}<i className="xp bi bi-lightning-charge-fill"></i></h5></div><hr />
           <div className="acheve"><span>current level:</span><h5>{props.level}</h5></div><hr />
           <div className="acheve"><span>current path:</span><h5>{props.xp}</h5></div><hr />
           <div className="acheve"><span>Progress:</span><h5>{props.xp}</h5></div><hr />

@@ -8,7 +8,7 @@ function Navbar() {
   const[profile,setProfile]=useState(null)
   const[showProfile,setShowProfile]=useState(false)
   useEffect(()=>{
-    fetch("http://localhost:3000/users")
+    fetch("http://localhost:3000/users/1")
     .then((data)=>data.json())
     .then((data)=>setProfile(data))
     .catch((err)=>console.log(err))
@@ -23,7 +23,10 @@ function Navbar() {
         <div className='leftNav'>
             <div>streak:{profile.streak}<img src='src\assets\fire.png' style={{height:"1rem"}}></img></div>
             <div>XP:{profile.xp}<i className="xp bi bi-lightning-charge-fill"></i></div>
-            <div>Theme<i className="dark bi bi-moon-stars-fill"></i><i className="light bi bi-brightness-high-fill"></i></div>
+            <div className='theme'><select name="theme" id="theme" className='themes'>
+              <option value="light" >light </option>
+              <option value="dark">dark </option>
+            </select></div>
             <Profile key={profile.id} avatar={profile.avatar} show={showProfile} name={profile.name} email={profile.email} xp={profile.xp} level={profile.level} streak={profile.streak} />
         </div>
         </div>}
@@ -33,3 +36,4 @@ function Navbar() {
 }
 
 export default Navbar
+

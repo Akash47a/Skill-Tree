@@ -77,10 +77,11 @@
   padding: 0px;
   font-family: var(--font-family);
 }
-body{
 
+.w-15{
+  width: 15vw;
 }
-.Navbar{
-
+.w-84{
+  width: 84vw;
 }
 

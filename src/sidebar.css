@@ -1,0 +1,22 @@
+.sidebar{
+    position: fixed;
+    bottom: 0px;
+    top: 60px;
+    width: 15%;
+    height: auto;
+    border-right: 1px solid black;
+
+}
+.sidebar div{
+    padding: 7.5px 0;
+    padding-left: 10px;
+}
+.sidebar div:hover{
+    background-color: gainsboro;
+}
+.sidebar-bottom{
+    position: fixed;
+    bottom: 5px;
+    width: 15%;
+
+}

@@ -93,3 +93,14 @@
     flex-direction: column;
     gap: 4px;
 }
+.theme{
+    height: 1.2rem;
+    width: 50px;
+    
+}
+
+.themes{
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+}
