@@ -16,7 +16,7 @@ function App() {
         <div className='w-15'><Sidebar  setName={setName}/></div>
         <div className='w-84' ><RoadMap name={name} setSkill={setSkill}/></div>
       </div>
-      {skill && <div className='overlay'><SkillCard skill={skill}/></div>}
+      {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill}/></div>}
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./skillcard.css";
-function SkillCard({ skill }) {
+function SkillCard({ skill,setSkill }) {
 
 const[resources,setResources]=useState([])
 useEffect(()=>{
@@ -24,7 +24,7 @@ useEffect(()=>{
                 <option value="completed">completed</option>
               </select>
             </div>
-            <div className="closebtn">X</div>
+            <div className="closebtn" onClick={()=>setSkill(null)}>X</div>
           </div>
         </div>
         <div className="skilldetail">
