@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.course{
+    height: 3rem;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+
+}
+.course p{
+    margin-bottom: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.skills{
+    height: 3rem;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+}
+.skills p{
+    margin-bottom: 0px;
+    align-self: center;
+}
+.skills::after{
+    content: "";
+    background-color: rgb(117, 152, 255);
+    position: absolute;
+    height: 70px;
+    width: 3px;
+    left: 49%;
+    bottom: 2.95rem;
+}
