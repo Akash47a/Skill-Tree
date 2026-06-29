@@ -1,7 +1,5 @@
 @import url(src\index.css);
 .Navbar{
-    position: fixed;
-    top: 0;
     width: 100vw;
     height: 60px;
     display: flex;
