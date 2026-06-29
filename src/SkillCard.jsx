@@ -15,7 +15,7 @@ useEffect(()=>{
       <div className="overlay"></div>
       <div className="skillbox">
         <div className="skillnav">
-          <div className="resourcebtn">Resource</div>
+          <div className="resourcebtn"><p><i class="bi bi-globe-americas-fill"></i>  Resource</p></div>
           <div className="d-flex gap-3">
             <div className="status">
               <select name="progress" className="status" id="progress">
@@ -31,10 +31,12 @@ useEffect(()=>{
           <h2>{skill.title}</h2>
           <p>{skill.description}</p>
         </div>
-        {resources.length>0?(
+        <div className="resource-box">
+          <p className="title"><i class="bi bi-dropbox"></i>  Free Resources</p>
+          {resources.length>0?(
           resources.map((resource)=>(
             resource.skillId==skill.id?(<div className="resource">
-              <h4>{resource.title}</h4>
+              <p className="type">{resource.type}</p><a href={resource.url}>{resource.title}</a>
         </div>):(
           <></>
         )
@@ -42,6 +44,7 @@ useEffect(()=>{
         ):(
           <div>loading</div>
         )}
+        </div>
       </div>
     </div>
   );

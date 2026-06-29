@@ -12,13 +12,14 @@
     position: fixed;
     z-index: 2;
     right: 0;
-    padding: 10px;
+    padding: 30px 20px;
 }
 .skillnav{
     display: flex;
     justify-content: space-between;
 }
 .resourcebtn{
+    width: auto;
     height: 30px;
     padding: 0px 10px;
     background-color: black;
@@ -29,6 +30,10 @@
     border: 1px solid whitesmoke;
     border-radius: 5px;
     cursor: pointer;
+}
+.resourcebtn p{
+    margin: 0px;
+    padding: 0px;
 }
 .status{
     height: 28px;
@@ -45,5 +50,42 @@
     cursor: pointer;
 }
 .skilldetail{
-
+    margin-top: 30px;
+}
+.skilldetail h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.skilldetail p{
+    font-size: 1.3rem;
+    color: gray;
+}
+.resource-box{
+    width: 100%;
+    height: auto;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+.resource-box .title{
+    color: rgb(44, 164, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.resource{
+    display: flex;
+    gap: 5px;
+}
+.resource a{
+    color: black;
+    font-size: 1rem;
+}
+.type{
+    background-color: rgb(255, 221, 0);
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 60px;
+    text-align: center;
 }
