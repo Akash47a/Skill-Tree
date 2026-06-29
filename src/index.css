@@ -85,3 +85,8 @@
   width: 84vw;
 }
 
+.app{
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+}

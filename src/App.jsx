@@ -1,17 +1,22 @@
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import RoadMap from './RoadMap'
+import SkillCard from './SkillCard'
 function App() {
   const [name,setName]=useState("")
+  const [skill,setSkill]=useState(null)
+  const [click,setClick]=useState("none")
+  
   return (
-    <div className="d-flex vh-100 flex-column" >
+    <div className="app d-flex flex-column">
       <div style={{height:"60px",width:"100vw"}}><Navbar /></div>
       <div className='d-flex'>
         <div className='w-15'><Sidebar  setName={setName}/></div>
-        <div className='w-84' ><RoadMap name={name}/></div>
+        <div className='w-84' ><RoadMap name={name} setSkill={setSkill}/></div>
       </div>
+      {skill && <div className='overlay'><SkillCard skill={skill}/></div>}
     </div>
   )
 }

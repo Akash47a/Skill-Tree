@@ -16,22 +16,25 @@
     margin: 100px 0;
 }
 .course{
-    height: 3rem;
-    width: fit-content;
-    padding: 5px 10px;
+    height: 250px;
+    width: 90%;
+    padding: 20px 40px;
     border: 1px solid black;
-    border-radius: 10px;
-    background-color: yellow;
+    border-radius: 20px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.course h4{
+    font-size: 3rem;
+    font-weight: 700;
 
 }
 .course p{
-    margin-bottom: 0px;
-    font-size: 2rem;
-    font-weight: 700;
+    color: gray;
+    font-size: 1.3rem;
 }
-
 .skills{
     height: 3rem;
     width: fit-content;
@@ -46,6 +49,11 @@
     margin-bottom: 0px;
     align-self: center;
 }
+.skills:hover{
+    background-color: rgb(235, 235, 50);
+    cursor: pointer;
+}
+
 .skills::after{
     content: "";
     background-color: rgb(117, 152, 255);
