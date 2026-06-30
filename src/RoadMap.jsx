@@ -1,20 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import './roadmap.css'
-function RoadMap({name,setSkill,setid}) {
-  const [datas,setDatas]=useState([])
-  useEffect(()=>{
-    fetch("http://localhost:3000/roadmaps")
-    .then((data)=>data.json())
-    .then((data)=>setDatas(data))
-    .catch((err)=>console.log(err))
-  },[])
-
+function RoadMap({name,setSkill,datass,setid}) {
+  
+  const statusColors = {
+    "pending": "#c7c7c7",       
+    "in progress": "#eec64f",   
+    "completed": "#42e47e"      
+  };
 
   return (
     <div>
-      {datas.length>0?(
+      {datass.length>0?(
         <div>
-          {datas.filter((data) => data.slug == name).map((data)=>(
+          {datass.filter((data) => data.slug == name).map((data)=>(
             <div key={data.id} className='container'>
               <div className='course'>
                 <div>
@@ -24,8 +22,10 @@ function RoadMap({name,setSkill,setid}) {
                 <div><span>totalSkills:</span>{data.totalSkills} </div>
               </div>
               {data[data.slug] && data[data.slug].map((skill) => (
-                <div key={skill.id}  className='skills' onClick={()=>{setSkill(skill);setid(data.id)}}><p>{skill.title}</p></div>
-              ))}
+                <div key={skill.id} >
+                
+                <div style={{backgroundColor:(statusColors[skill.state])}}  className='skills' onClick={()=>{setSkill(skill);setid(data.id)}}><p>{skill.title}</p></div>
+              </div>))}
             </div>
           ))}
         </div>

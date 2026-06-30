@@ -118,7 +118,7 @@
           "id": 201,
           "title": "JSX & Components",
           "description": "Writing JSX and creating functional components. This skill is part of the React.js Mastery roadmap and focuses on JSX & Components. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
-          "state": "completed",
+          "state": "pending",
           "locked": false,
           "prerequisite": null,
           "xp": 50
@@ -221,7 +221,7 @@
           "id": 301,
           "title": "Node.js Basics",
           "description": "The Node runtime, modules, and the event loop. This skill is part of the Backend Development roadmap and focuses on Node.js Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
-          "state": "in progress",
+          "state": "pending",
           "locked": false,
           "prerequisite": null,
           "xp": 50
@@ -324,7 +324,7 @@
           "id": 401,
           "title": "Big O Notation",
           "description": "Analyzing time and space complexity. This skill is part of the Data Structures & Algorithms roadmap and focuses on Big O Notation. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
-          "state": "completed",
+          "state": "pending",
           "locked": false,
           "prerequisite": null,
           "xp": 50

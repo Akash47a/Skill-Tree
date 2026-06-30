@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function SkillStatus({ roadmapid, skill }) { 
+function SkillStatus({ roadmapid, skill,onUpdate }) { 
   const [datas, setDatas] = useState([]);
   const [status, setStatus] = useState(skill?.state || null); 
 
   const handleChange = async (e) => {
     const newStatus = e.target.value;
     setStatus(newStatus);
-
     try {
       const response = await fetch(`http://localhost:3000/roadmaps/${roadmapid}`);
       const roadmap = await response.json();
@@ -18,7 +17,6 @@ function SkillStatus({ roadmapid, skill }) {
 
       const updatedRoadmap = { ...roadmap, [roadmap.slug]: updatedskills };
 
-      // Fixed string interpolation backticks
       await fetch(`http://localhost:3000/roadmaps/${roadmapid}`, {
         method: "PUT",
         headers: {
@@ -26,11 +24,14 @@ function SkillStatus({ roadmapid, skill }) {
         },
         body: JSON.stringify(updatedRoadmap),
       });
-
+      if(onUpdate){
+        onUpdate();
+      }
     } catch (error) {
       console.error("Error updating status on server:", error);
     }
-  };
+    
+  }
 
   return (
     <div className="status">

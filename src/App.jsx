@@ -10,6 +10,21 @@ function App() {
   const [skill,setSkill]=useState(null)
   const [click,setClick]=useState("none")
   const [id,setid]=useState(null)
+  const [roadmapData, setRoadmapData] = useState(null);
+
+const loadData = async () => {
+
+    const res = await fetch("http://localhost:3000/roadmaps", { 
+      cache: "no-store" 
+    });
+    
+    const data = await res.json();
+    setRoadmapData(data);
+  };
+
+  useEffect(() => {
+    loadData();
+  }, []);
   
   return (
     <div className="app d-flex flex-column">
@@ -17,12 +32,12 @@ function App() {
       <div className='d-flex'>
         <div className='w-15'><Sidebar  setName={setName}/></div>
         {name?(
-          <div className='w-84' ><RoadMap name={name} setSkill={setSkill} setid={setid}/></div>
+          <div className='w-84' ><RoadMap name={name} setSkill={setSkill} setid={setid} datass={roadmapData}/></div>
         ):(
           <div className='w-84'><Home setName={setName}/></div>
         )}
       </div>
-      {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill} id={id}/></div>}
+      {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill} id={id} onUpdate={loadData}/></div>}
     </div>
   )
 }
