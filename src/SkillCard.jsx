@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./skillcard.css";
-function SkillCard({ skill,setSkill }) {
+import SkillStatus from "./SkillStatus";
+function SkillCard({ skill,setSkill,id }) {
 
 const[resources,setResources]=useState([])
 useEffect(()=>{
@@ -15,15 +16,9 @@ useEffect(()=>{
       <div className="overlay"></div>
       <div className="skillbox">
         <div className="skillnav">
-          <div className="resourcebtn"><p><i class="bi bi-globe-americas-fill"></i>  Resource</p></div>
+          <div className="resourcebtn"><p><i className="bi bi-globe-americas-fill"></i>  Resource</p></div>
           <div className="d-flex gap-3">
-            <div className="status">
-              <select name="progress" className="status" id="progress">
-                <option value="pending">pending</option>
-                <option value="in progress">In progress</option>
-                <option value="completed">completed</option>
-              </select>
-            </div>
+            <div><SkillStatus roadmapid={id} skill={skill}/></div>
             <div className="closebtn" onClick={()=>setSkill(null)}>X</div>
           </div>
         </div>
@@ -32,14 +27,18 @@ useEffect(()=>{
           <p>{skill.description}</p>
         </div>
         <div className="resource-box">
-          <p className="title"><i class="bi bi-dropbox"></i>  Free Resources</p>
+          <p className="title"><i className="bi bi-dropbox"></i>  Free Resources</p>
           {resources.length>0?(
           resources.map((resource)=>(
-            resource.skillId==skill.id?(<div className="resource">
+            <div key={resource.id}>
+              {
+                resource.skillId==skill.id?(<div className="resource">
               <p className="type" style={{backgroundColor:resource.color}}>{resource.type}</p><a href={resource.url}>{resource.title}</a>
         </div>):(
           <></>
         )
+              }
+            </div>
           ))
         ):(
           <div>loading</div>

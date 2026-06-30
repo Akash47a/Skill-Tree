@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './roadmap.css'
-function RoadMap({name,setSkill}) {
+function RoadMap({name,setSkill,setid}) {
   const [datas,setDatas]=useState([])
   useEffect(()=>{
     fetch("http://localhost:3000/roadmaps")
@@ -24,7 +24,7 @@ function RoadMap({name,setSkill}) {
                 <div><span>totalSkills:</span>{data.totalSkills} </div>
               </div>
               {data[data.slug] && data[data.slug].map((skill) => (
-                <div key={skill.id}  className='skills' onClick={()=>setSkill(skill)}><p>{skill.title}</p></div>
+                <div key={skill.id}  className='skills' onClick={()=>{setSkill(skill);setid(data.id)}}><p>{skill.title}</p></div>
               ))}
             </div>
           ))}
