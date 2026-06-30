@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import RoadMap from './RoadMap'
 import SkillCard from './SkillCard'
+import Home from './Home'
 function App() {
   const [name,setName]=useState("")
   const [skill,setSkill]=useState(null)
@@ -14,7 +15,11 @@ function App() {
       <div style={{height:"60px",width:"100vw"}}><Navbar /></div>
       <div className='d-flex'>
         <div className='w-15'><Sidebar  setName={setName}/></div>
-        <div className='w-84' ><RoadMap name={name} setSkill={setSkill}/></div>
+        {name?(
+          <div className='w-84' ><RoadMap name={name} setSkill={setSkill}/></div>
+        ):(
+          <div className='w-84'><Home setName={setName}/></div>
+        )}
       </div>
       {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill}/></div>}
     </div>

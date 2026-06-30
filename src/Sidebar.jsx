@@ -14,7 +14,7 @@ function Sidebar({setName}) {
     <div>
         {datas.length>0?(
           <div className='sidebar'>
-            <div>Home</div>
+            <div onClick={()=>setName("")}>Home</div>
             
             {datas.map((data)=>(
               <div className='roadmap' key={data.id} onClick={()=>setName(data.slug)}>{data.title} </div>
