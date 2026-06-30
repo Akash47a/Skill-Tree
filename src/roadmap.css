@@ -19,12 +19,13 @@
     height: auto;
     width: 90%;
     padding: 20px 40px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: antiquewhite;
+    gap: 50px;
 }
 .course h4{
     font-size: 3rem;
@@ -39,7 +40,7 @@
     height: 3rem;
     width: fit-content;
     padding: 5px 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     background-color: yellow;
     display: flex;
@@ -50,16 +51,14 @@
     align-self: center;
 }
 .skills:hover{
-    background-color: rgb(235, 235, 50);
     cursor: pointer;
 }
 
 .skills::after{
     content: "";
-    background-color: rgb(117, 152, 255);
     position: absolute;
     height: 70px;
-    width: 3px;
+    border: 2px solid black;
     left: 49%;
-    bottom: 2.95rem;
+    bottom: 2.90rem;
 }

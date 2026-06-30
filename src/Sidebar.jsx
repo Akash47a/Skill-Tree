@@ -12,6 +12,7 @@ function Sidebar({setName}) {
   //setName(course);
   return (
     <div>
+      
         {datas.length>0?(
           <div className='sidebar'>
             <div onClick={()=>setName("")}>Home</div>

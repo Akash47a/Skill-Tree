@@ -20,8 +20,13 @@
 .Logo{
   width: auto;
   height: 60px;
+  position: fixed;
+  top: 5px;
 }
 .searchbar{
+    position: absolute;
+    top: 15px;
+    left: 15%;
     width: 30vw;
     border: 1px solid black;
     height: 40px;

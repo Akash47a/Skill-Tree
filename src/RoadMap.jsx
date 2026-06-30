@@ -3,7 +3,7 @@ import './roadmap.css'
 function RoadMap({name,setSkill,datass,setid}) {
   
   const statusColors = {
-    "pending": "#c7c7c7",       
+    "pending": "#c8c8c8",       
     "in progress": "#eec64f",   
     "completed": "#42e47e"      
   };

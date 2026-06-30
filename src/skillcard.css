@@ -51,6 +51,9 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.closebtn:hover{
+    background-color: rgb(231, 231, 231);
+}
 .skilldetail{
     margin-top: 30px;
 }
