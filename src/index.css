@@ -55,7 +55,7 @@
   --space-2xl: 3rem;
 
   /* ========== Typography ========== */
-  --font-family: "Poppins", sans-serif;
+  --font-family: 'Segoe UI', 'Open Sans', Helvetica, Arial, sans-serif;
 
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
@@ -76,6 +76,7 @@
   margin: 0px;
   padding: 0px;
   font-family: var(--font-family);
+    line-height: 1.6;
 }
 
 .w-15{

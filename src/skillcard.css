@@ -38,6 +38,7 @@
 .status{
     height: 28px;
     cursor: pointer;
+    border-radius: 5px;
 
 }
 .closebtn{
@@ -48,17 +49,24 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 5px;
 }
 .skilldetail{
     margin-top: 30px;
 }
 .skilldetail h2{
-    font-size: 3rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 800;
 }
 .skilldetail p{
-    font-size: 1.3rem;
-    color: gray;
+  font-family: 'Segoe UI', 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  font-style: normal;
+  color: #36454F; 
+  line-height: 1.6;
+  text-align: left;
+  letter-spacing: normal;
 }
 .resource-box{
     width: 100%;
@@ -76,16 +84,17 @@
 }
 .resource{
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 .resource a{
     color: black;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 .type{
-    background-color: rgb(255, 221, 0);
     border-radius: 5px;
     padding: 0px 5px;
-    width: 60px;
+    width: auto;
     text-align: center;
+    color: white;
 }

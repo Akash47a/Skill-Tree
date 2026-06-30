@@ -36,7 +36,7 @@ useEffect(()=>{
           {resources.length>0?(
           resources.map((resource)=>(
             resource.skillId==skill.id?(<div className="resource">
-              <p className="type">{resource.type}</p><a href={resource.url}>{resource.title}</a>
+              <p className="type" style={{backgroundColor:resource.color}}>{resource.type}</p><a href={resource.url}>{resource.title}</a>
         </div>):(
           <></>
         )

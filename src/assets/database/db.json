@@ -4,360 +4,3863 @@
       "id": 1,
       "slug": "frontend",
       "title": "Frontend Development",
-      "description": "Master the foundations of building modern, responsive websites with HTML, CSS, and JavaScript.",
-      "icon": "🌐",
+      "description": "Master the foundations of building modern, responsive websites with HTML, CSS, and JavaScript. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83c/udf10",
       "color": "#3B82F6",
       "category": "frontend",
       "totalSkills": 10,
       "difficulty": "Beginner",
       "frontend": [
-        { "id": 101, "title": "HTML Basics", "description": "Semantic HTML, tags, and document structure.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 102, "title": "CSS Basics", "description": "Selectors, box model, and styling fundamentals.", "completed": false, "locked": false, "prerequisite": 101, "xp": 50 },
-        { "id": 103, "title": "CSS Flexbox & Grid", "description": "Modern layout systems for responsive design.", "completed": false, "locked": true, "prerequisite": 102, "xp": 75 },
-        { "id": 104, "title": "Responsive Design", "description": "Media queries and mobile-first design.", "completed": false, "locked": true, "prerequisite": 103, "xp": 75 },
-        { "id": 105, "title": "JavaScript Basics", "description": "Variables, functions, loops, and conditionals.", "completed": false, "locked": true, "prerequisite": 101, "xp": 75 },
-        { "id": 106, "title": "DOM Manipulation", "description": "Selecting and updating elements dynamically.", "completed": false, "locked": true, "prerequisite": 105, "xp": 75 },
-        { "id": 107, "title": "ES6+ Features", "description": "Arrow functions, destructuring, spread/rest, modules.", "completed": false, "locked": true, "prerequisite": 106, "xp": 100 },
-        { "id": 108, "title": "Fetch API & AJAX", "description": "Making HTTP requests and handling responses.", "completed": false, "locked": true, "prerequisite": 107, "xp": 100 },
-        { "id": 109, "title": "Git & GitHub", "description": "Version control basics and collaboration workflows.", "completed": false, "locked": true, "prerequisite": 101, "xp": 50 },
-        { "id": 110, "title": "Browser DevTools", "description": "Debugging, inspecting, and profiling in the browser.", "completed": false, "locked": true, "prerequisite": 105, "xp": 50 }
+        {
+          "id": 101,
+          "title": "HTML Basics",
+          "description": "Semantic HTML, tags, and document structure. This skill is part of the Frontend Development roadmap and focuses on HTML Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": true,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 102,
+          "title": "CSS Basics",
+          "description": "Selectors, box model, and styling fundamentals. This skill is part of the Frontend Development roadmap and focuses on CSS Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": 101,
+          "xp": 50
+        },
+        {
+          "id": 103,
+          "title": "CSS Flexbox & Grid",
+          "description": "Modern layout systems for responsive design. This skill is part of the Frontend Development roadmap and focuses on CSS Flexbox & Grid. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 102,
+          "xp": 75
+        },
+        {
+          "id": 104,
+          "title": "Responsive Design",
+          "description": "Media queries and mobile-first design. This skill is part of the Frontend Development roadmap and focuses on Responsive Design. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 103,
+          "xp": 75
+        },
+        {
+          "id": 105,
+          "title": "JavaScript Basics",
+          "description": "Variables, functions, loops, and conditionals. This skill is part of the Frontend Development roadmap and focuses on JavaScript Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 101,
+          "xp": 75
+        },
+        {
+          "id": 106,
+          "title": "DOM Manipulation",
+          "description": "Selecting and updating elements dynamically. This skill is part of the Frontend Development roadmap and focuses on DOM Manipulation. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 105,
+          "xp": 75
+        },
+        {
+          "id": 107,
+          "title": "ES6+ Features",
+          "description": "Arrow functions, destructuring, spread/rest, modules. This skill is part of the Frontend Development roadmap and focuses on ES6+ Features. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 106,
+          "xp": 100
+        },
+        {
+          "id": 108,
+          "title": "Fetch API & AJAX",
+          "description": "Making HTTP requests and handling responses. This skill is part of the Frontend Development roadmap and focuses on Fetch API & AJAX. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 107,
+          "xp": 100
+        },
+        {
+          "id": 109,
+          "title": "Git & GitHub",
+          "description": "Version control basics and collaboration workflows. This skill is part of the Frontend Development roadmap and focuses on Git & GitHub. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 101,
+          "xp": 50
+        },
+        {
+          "id": 110,
+          "title": "Browser DevTools",
+          "description": "Debugging, inspecting, and profiling in the browser. This skill is part of the Frontend Development roadmap and focuses on Browser DevTools. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 105,
+          "xp": 50
+        }
       ]
     },
     {
       "id": 2,
       "slug": "react",
       "title": "React.js Mastery",
-      "description": "Learn to build dynamic, component-driven UIs with React, from JSX to advanced hooks and routing.",
-      "icon": "⚛️",
+      "description": "Learn to build dynamic, component-driven UIs with React, from JSX to advanced hooks and routing. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/u269b/ufe0f",
       "color": "#61DAFB",
       "category": "react",
       "totalSkills": 10,
       "difficulty": "Intermediate",
       "react": [
-        { "id": 201, "title": "JSX & Components", "description": "Writing JSX and creating functional components.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 202, "title": "Props", "description": "Passing and validating data between components.", "completed": false, "locked": false, "prerequisite": 201, "xp": 50 },
-        { "id": 203, "title": "State & useState", "description": "Managing local component state.", "completed": false, "locked": true, "prerequisite": 202, "xp": 75 },
-        { "id": 204, "title": "Event Handling", "description": "Handling user interactions with synthetic events.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
-        { "id": 205, "title": "useEffect & Lifecycle", "description": "Side effects, data fetching, and cleanup.", "completed": false, "locked": true, "prerequisite": 204, "xp": 100 },
-        { "id": 206, "title": "Conditional Rendering & Lists", "description": "Rendering UI conditionally and mapping over data.", "completed": false, "locked": true, "prerequisite": 203, "xp": 75 },
-        { "id": 207, "title": "Forms & Controlled Components", "description": "Managing form inputs and validation in React.", "completed": false, "locked": true, "prerequisite": 204, "xp": 75 },
-        { "id": 208, "title": "Context API", "description": "Sharing state globally without prop drilling.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
-        { "id": 209, "title": "React Router", "description": "Client-side routing and nested routes.", "completed": false, "locked": true, "prerequisite": 205, "xp": 100 },
-        { "id": 210, "title": "Custom Hooks", "description": "Extracting and reusing component logic.", "completed": false, "locked": true, "prerequisite": 208, "xp": 125 }
+        {
+          "id": 201,
+          "title": "JSX & Components",
+          "description": "Writing JSX and creating functional components. This skill is part of the React.js Mastery roadmap and focuses on JSX & Components. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": true,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 202,
+          "title": "Props",
+          "description": "Passing and validating data between components. This skill is part of the React.js Mastery roadmap and focuses on Props. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": 201,
+          "xp": 50
+        },
+        {
+          "id": 203,
+          "title": "State & useState",
+          "description": "Managing local component state. This skill is part of the React.js Mastery roadmap and focuses on State & useState. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 202,
+          "xp": 75
+        },
+        {
+          "id": 204,
+          "title": "Event Handling",
+          "description": "Handling user interactions with synthetic events. This skill is part of the React.js Mastery roadmap and focuses on Event Handling. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 203,
+          "xp": 75
+        },
+        {
+          "id": 205,
+          "title": "useEffect & Lifecycle",
+          "description": "Side effects, data fetching, and cleanup. This skill is part of the React.js Mastery roadmap and focuses on useEffect & Lifecycle. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 204,
+          "xp": 100
+        },
+        {
+          "id": 206,
+          "title": "Conditional Rendering & Lists",
+          "description": "Rendering UI conditionally and mapping over data. This skill is part of the React.js Mastery roadmap and focuses on Conditional Rendering & Lists. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 203,
+          "xp": 75
+        },
+        {
+          "id": 207,
+          "title": "Forms & Controlled Components",
+          "description": "Managing form inputs and validation in React. This skill is part of the React.js Mastery roadmap and focuses on Forms & Controlled Components. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 204,
+          "xp": 75
+        },
+        {
+          "id": 208,
+          "title": "Context API",
+          "description": "Sharing state globally without prop drilling. This skill is part of the React.js Mastery roadmap and focuses on Context API. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 205,
+          "xp": 100
+        },
+        {
+          "id": 209,
+          "title": "React Router",
+          "description": "Client-side routing and nested routes. This skill is part of the React.js Mastery roadmap and focuses on React Router. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 205,
+          "xp": 100
+        },
+        {
+          "id": 210,
+          "title": "Custom Hooks",
+          "description": "Extracting and reusing component logic. This skill is part of the React.js Mastery roadmap and focuses on Custom Hooks. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 208,
+          "xp": 125
+        }
       ]
     },
     {
       "id": 3,
       "slug": "backend",
       "title": "Backend Development",
-      "description": "Build and deploy server-side applications using Node.js, Express, and databases.",
-      "icon": "🛠️",
+      "description": "Build and deploy server-side applications using Node.js, Express, and databases. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83d/udee0/ufe0f",
       "color": "#22C55E",
       "category": "backend",
       "totalSkills": 10,
       "difficulty": "Intermediate",
       "backend": [
-        { "id": 301, "title": "Node.js Basics", "description": "The Node runtime, modules, and the event loop.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 302, "title": "NPM & Modules", "description": "Package management and the module system.", "completed": false, "locked": true, "prerequisite": 301, "xp": 50 },
-        { "id": 303, "title": "Express.js Fundamentals", "description": "Routing, middleware, and request handling.", "completed": false, "locked": true, "prerequisite": 302, "xp": 75 },
-        { "id": 304, "title": "REST API Design", "description": "Designing clean, resource-based APIs.", "completed": false, "locked": true, "prerequisite": 303, "xp": 100 },
-        { "id": 305, "title": "Middleware", "description": "Custom and third-party middleware patterns.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
-        { "id": 306, "title": "Authentication & JWT", "description": "Securing routes with tokens and sessions.", "completed": false, "locked": true, "prerequisite": 305, "xp": 100 },
-        { "id": 307, "title": "Databases - SQL Basics", "description": "Relational schemas and SQL queries.", "completed": false, "locked": true, "prerequisite": 301, "xp": 75 },
-        { "id": 308, "title": "MongoDB & Mongoose", "description": "NoSQL data modeling with Mongoose ODM.", "completed": false, "locked": true, "prerequisite": 301, "xp": 100 },
-        { "id": 309, "title": "Error Handling", "description": "Centralized error handling and status codes.", "completed": false, "locked": true, "prerequisite": 304, "xp": 75 },
-        { "id": 310, "title": "Deployment Basics", "description": "Deploying Node apps to the cloud.", "completed": false, "locked": true, "prerequisite": 306, "xp": 100 }
+        {
+          "id": 301,
+          "title": "Node.js Basics",
+          "description": "The Node runtime, modules, and the event loop. This skill is part of the Backend Development roadmap and focuses on Node.js Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 302,
+          "title": "NPM & Modules",
+          "description": "Package management and the module system. This skill is part of the Backend Development roadmap and focuses on NPM & Modules. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 301,
+          "xp": 50
+        },
+        {
+          "id": 303,
+          "title": "Express.js Fundamentals",
+          "description": "Routing, middleware, and request handling. This skill is part of the Backend Development roadmap and focuses on Express.js Fundamentals. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 302,
+          "xp": 75
+        },
+        {
+          "id": 304,
+          "title": "REST API Design",
+          "description": "Designing clean, resource-based APIs. This skill is part of the Backend Development roadmap and focuses on REST API Design. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 303,
+          "xp": 100
+        },
+        {
+          "id": 305,
+          "title": "Middleware",
+          "description": "Custom and third-party middleware patterns. This skill is part of the Backend Development roadmap and focuses on Middleware. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 304,
+          "xp": 75
+        },
+        {
+          "id": 306,
+          "title": "Authentication & JWT",
+          "description": "Securing routes with tokens and sessions. This skill is part of the Backend Development roadmap and focuses on Authentication & JWT. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 305,
+          "xp": 100
+        },
+        {
+          "id": 307,
+          "title": "Databases - SQL Basics",
+          "description": "Relational schemas and SQL queries. This skill is part of the Backend Development roadmap and focuses on Databases - SQL Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 301,
+          "xp": 75
+        },
+        {
+          "id": 308,
+          "title": "MongoDB & Mongoose",
+          "description": "NoSQL data modeling with Mongoose ODM. This skill is part of the Backend Development roadmap and focuses on MongoDB & Mongoose. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 301,
+          "xp": 100
+        },
+        {
+          "id": 309,
+          "title": "Error Handling",
+          "description": "Centralized error handling and status codes. This skill is part of the Backend Development roadmap and focuses on Error Handling. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 304,
+          "xp": 75
+        },
+        {
+          "id": 310,
+          "title": "Deployment Basics",
+          "description": "Deploying Node apps to the cloud. This skill is part of the Backend Development roadmap and focuses on Deployment Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 306,
+          "xp": 100
+        }
       ]
     },
     {
       "id": 4,
       "slug": "dsa",
       "title": "Data Structures & Algorithms",
-      "description": "Strengthen your problem-solving skills with core data structures and algorithmic techniques.",
-      "icon": "🧠",
+      "description": "Strengthen your problem-solving skills with core data structures and algorithmic techniques. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83e/udde0",
       "color": "#F97316",
       "category": "dsa",
       "totalSkills": 12,
       "difficulty": "Advanced",
       "dsa": [
-        { "id": 401, "title": "Big O Notation", "description": "Analyzing time and space complexity.", "completed": true, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 402, "title": "Arrays & Strings", "description": "Core operations and common patterns.", "completed": false, "locked": false, "prerequisite": 401, "xp": 75 },
-        { "id": 403, "title": "Hashing", "description": "Hash maps and sets for fast lookups.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-        { "id": 404, "title": "Linked Lists", "description": "Singly and doubly linked list operations.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-        { "id": 405, "title": "Stacks & Queues", "description": "LIFO/FIFO structures and use cases.", "completed": false, "locked": true, "prerequisite": 404, "xp": 75 },
-        { "id": 406, "title": "Recursion", "description": "Recursive thinking and base cases.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
-        { "id": 407, "title": "Trees", "description": "Binary trees, traversals, and BSTs.", "completed": false, "locked": true, "prerequisite": 406, "xp": 100 },
-        { "id": 408, "title": "Binary Search", "description": "Search in sorted structures efficiently.", "completed": false, "locked": true, "prerequisite": 402, "xp": 75 },
-        { "id": 409, "title": "Sorting Algorithms", "description": "Bubble, merge, quick sort, and complexity tradeoffs.", "completed": false, "locked": true, "prerequisite": 402, "xp": 100 },
-        { "id": 410, "title": "Graphs", "description": "Graph representations, BFS, and DFS.", "completed": false, "locked": true, "prerequisite": 407, "xp": 125 },
-        { "id": 411, "title": "Dynamic Programming", "description": "Memoization and tabulation techniques.", "completed": false, "locked": true, "prerequisite": 406, "xp": 150 },
-        { "id": 412, "title": "Greedy Algorithms", "description": "Making locally optimal choices.", "completed": false, "locked": true, "prerequisite": 409, "xp": 100 }
+        {
+          "id": 401,
+          "title": "Big O Notation",
+          "description": "Analyzing time and space complexity. This skill is part of the Data Structures & Algorithms roadmap and focuses on Big O Notation. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": true,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 402,
+          "title": "Arrays & Strings",
+          "description": "Core operations and common patterns. This skill is part of the Data Structures & Algorithms roadmap and focuses on Arrays & Strings. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": 401,
+          "xp": 75
+        },
+        {
+          "id": 403,
+          "title": "Hashing",
+          "description": "Hash maps and sets for fast lookups. This skill is part of the Data Structures & Algorithms roadmap and focuses on Hashing. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 402,
+          "xp": 75
+        },
+        {
+          "id": 404,
+          "title": "Linked Lists",
+          "description": "Singly and doubly linked list operations. This skill is part of the Data Structures & Algorithms roadmap and focuses on Linked Lists. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 402,
+          "xp": 75
+        },
+        {
+          "id": 405,
+          "title": "Stacks & Queues",
+          "description": "LIFO/FIFO structures and use cases. This skill is part of the Data Structures & Algorithms roadmap and focuses on Stacks & Queues. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 404,
+          "xp": 75
+        },
+        {
+          "id": 406,
+          "title": "Recursion",
+          "description": "Recursive thinking and base cases. This skill is part of the Data Structures & Algorithms roadmap and focuses on Recursion. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 402,
+          "xp": 100
+        },
+        {
+          "id": 407,
+          "title": "Trees",
+          "description": "Binary trees, traversals, and BSTs. This skill is part of the Data Structures & Algorithms roadmap and focuses on Trees. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 406,
+          "xp": 100
+        },
+        {
+          "id": 408,
+          "title": "Binary Search",
+          "description": "Search in sorted structures efficiently. This skill is part of the Data Structures & Algorithms roadmap and focuses on Binary Search. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 402,
+          "xp": 75
+        },
+        {
+          "id": 409,
+          "title": "Sorting Algorithms",
+          "description": "Bubble, merge, quick sort, and complexity tradeoffs. This skill is part of the Data Structures & Algorithms roadmap and focuses on Sorting Algorithms. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 402,
+          "xp": 100
+        },
+        {
+          "id": 410,
+          "title": "Graphs",
+          "description": "Graph representations, BFS, and DFS. This skill is part of the Data Structures & Algorithms roadmap and focuses on Graphs. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 407,
+          "xp": 125
+        },
+        {
+          "id": 411,
+          "title": "Dynamic Programming",
+          "description": "Memoization and tabulation techniques. This skill is part of the Data Structures & Algorithms roadmap and focuses on Dynamic Programming. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 406,
+          "xp": 150
+        },
+        {
+          "id": 412,
+          "title": "Greedy Algorithms",
+          "description": "Making locally optimal choices. This skill is part of the Data Structures & Algorithms roadmap and focuses on Greedy Algorithms. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 409,
+          "xp": 100
+        }
       ]
     },
     {
       "id": 5,
       "slug": "uiux",
       "title": "UI/UX Design",
-      "description": "Learn design fundamentals, prototyping, and usability principles to craft great user experiences.",
-      "icon": "🎨",
+      "description": "Learn design fundamentals, prototyping, and usability principles to craft great user experiences. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83c/udfa8",
       "color": "#EC4899",
       "category": "uiux",
       "totalSkills": 9,
       "difficulty": "Beginner",
       "uiux": [
-        { "id": 501, "title": "Design Principles", "description": "Contrast, alignment, repetition, proximity.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 502, "title": "Color Theory", "description": "Color harmony, contrast, and accessibility.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
-        { "id": 503, "title": "Typography", "description": "Font pairing, hierarchy, and readability.", "completed": false, "locked": true, "prerequisite": 501, "xp": 50 },
-        { "id": 504, "title": "Wireframing", "description": "Low-fidelity layout planning.", "completed": false, "locked": true, "prerequisite": 501, "xp": 75 },
-        { "id": 505, "title": "Figma Basics", "description": "Frames, components, and auto layout.", "completed": false, "locked": true, "prerequisite": 504, "xp": 75 },
-        { "id": 506, "title": "Prototyping", "description": "Interactive flows and transitions.", "completed": false, "locked": true, "prerequisite": 505, "xp": 100 },
-        { "id": 507, "title": "Usability Testing", "description": "Gathering and applying user feedback.", "completed": false, "locked": true, "prerequisite": 506, "xp": 100 },
-        { "id": 508, "title": "Design Systems", "description": "Reusable components and style guides.", "completed": false, "locked": true, "prerequisite": 503, "xp": 100 },
-        { "id": 509, "title": "Accessibility (a11y)", "description": "Designing for all users and assistive tech.", "completed": false, "locked": true, "prerequisite": 508, "xp": 100 }
+        {
+          "id": 501,
+          "title": "Design Principles",
+          "description": "Contrast, alignment, repetition, proximity. This skill is part of the UI/UX Design roadmap and focuses on Design Principles. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 502,
+          "title": "Color Theory",
+          "description": "Color harmony, contrast, and accessibility. This skill is part of the UI/UX Design roadmap and focuses on Color Theory. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 501,
+          "xp": 50
+        },
+        {
+          "id": 503,
+          "title": "Typography",
+          "description": "Font pairing, hierarchy, and readability. This skill is part of the UI/UX Design roadmap and focuses on Typography. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 501,
+          "xp": 50
+        },
+        {
+          "id": 504,
+          "title": "Wireframing",
+          "description": "Low-fidelity layout planning. This skill is part of the UI/UX Design roadmap and focuses on Wireframing. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 501,
+          "xp": 75
+        },
+        {
+          "id": 505,
+          "title": "Figma Basics",
+          "description": "Frames, components, and auto layout. This skill is part of the UI/UX Design roadmap and focuses on Figma Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 504,
+          "xp": 75
+        },
+        {
+          "id": 506,
+          "title": "Prototyping",
+          "description": "Interactive flows and transitions. This skill is part of the UI/UX Design roadmap and focuses on Prototyping. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 505,
+          "xp": 100
+        },
+        {
+          "id": 507,
+          "title": "Usability Testing",
+          "description": "Gathering and applying user feedback. This skill is part of the UI/UX Design roadmap and focuses on Usability Testing. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 506,
+          "xp": 100
+        },
+        {
+          "id": 508,
+          "title": "Design Systems",
+          "description": "Reusable components and style guides. This skill is part of the UI/UX Design roadmap and focuses on Design Systems. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 503,
+          "xp": 100
+        },
+        {
+          "id": 509,
+          "title": "Accessibility (a11y)",
+          "description": "Designing for all users and assistive tech. This skill is part of the UI/UX Design roadmap and focuses on Accessibility (a11y). You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 508,
+          "xp": 100
+        }
       ]
     },
     {
       "id": 6,
       "slug": "typescript",
       "title": "TypeScript",
-      "description": "Add static typing to JavaScript and build safer, more maintainable applications.",
-      "icon": "🔷",
+      "description": "Add static typing to JavaScript and build safer, more maintainable applications. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83d/udd37",
       "color": "#3178C6",
       "category": "typescript",
       "totalSkills": 10,
       "difficulty": "Intermediate",
       "typescript": [
-        { "id": 601, "title": "TypeScript Basics & Setup", "description": "Installing TypeScript and configuring tsconfig.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 602, "title": "Type Annotations & Inference", "description": "Explicit types and how TypeScript infers them.", "completed": false, "locked": true, "prerequisite": 601, "xp": 50 },
-        { "id": 603, "title": "Interfaces & Type Aliases", "description": "Defining shapes of objects and reusable types.", "completed": false, "locked": true, "prerequisite": 602, "xp": 75 },
-        { "id": 604, "title": "Functions & Generics", "description": "Typing functions and writing reusable generic code.", "completed": false, "locked": true, "prerequisite": 603, "xp": 100 },
-        { "id": 605, "title": "Union & Intersection Types", "description": "Combining types for flexible, precise modeling.", "completed": false, "locked": true, "prerequisite": 604, "xp": 75 },
-        { "id": 606, "title": "Enums & Tuples", "description": "Fixed sets of values and ordered, typed arrays.", "completed": false, "locked": true, "prerequisite": 602, "xp": 50 },
-        { "id": 607, "title": "Classes & Access Modifiers", "description": "OOP in TypeScript with public/private/protected.", "completed": false, "locked": true, "prerequisite": 603, "xp": 75 },
-        { "id": 608, "title": "Utility Types", "description": "Partial, Pick, Omit, Record, and other built-ins.", "completed": false, "locked": true, "prerequisite": 605, "xp": 100 },
-        { "id": 609, "title": "Type Narrowing & Guards", "description": "Safely narrowing union types at runtime.", "completed": false, "locked": true, "prerequisite": 605, "xp": 100 },
-        { "id": 610, "title": "TypeScript with React", "description": "Typing props, state, hooks, and events in React.", "completed": false, "locked": true, "prerequisite": 608, "xp": 125 }
+        {
+          "id": 601,
+          "title": "TypeScript Basics & Setup",
+          "description": "Installing TypeScript and configuring tsconfig. This skill is part of the TypeScript roadmap and focuses on TypeScript Basics & Setup. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 602,
+          "title": "Type Annotations & Inference",
+          "description": "Explicit types and how TypeScript infers them. This skill is part of the TypeScript roadmap and focuses on Type Annotations & Inference. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 601,
+          "xp": 50
+        },
+        {
+          "id": 603,
+          "title": "Interfaces & Type Aliases",
+          "description": "Defining shapes of objects and reusable types. This skill is part of the TypeScript roadmap and focuses on Interfaces & Type Aliases. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 602,
+          "xp": 75
+        },
+        {
+          "id": 604,
+          "title": "Functions & Generics",
+          "description": "Typing functions and writing reusable generic code. This skill is part of the TypeScript roadmap and focuses on Functions & Generics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 603,
+          "xp": 100
+        },
+        {
+          "id": 605,
+          "title": "Union & Intersection Types",
+          "description": "Combining types for flexible, precise modeling. This skill is part of the TypeScript roadmap and focuses on Union & Intersection Types. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 604,
+          "xp": 75
+        },
+        {
+          "id": 606,
+          "title": "Enums & Tuples",
+          "description": "Fixed sets of values and orde#D11149, typed arrays. This skill is part of the TypeScript roadmap and focuses on Enums & Tuples. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 602,
+          "xp": 50
+        },
+        {
+          "id": 607,
+          "title": "Classes & Access Modifiers",
+          "description": "OOP in TypeScript with public/private/protected. This skill is part of the TypeScript roadmap and focuses on Classes & Access Modifiers. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 603,
+          "xp": 75
+        },
+        {
+          "id": 608,
+          "title": "Utility Types",
+          "description": "Partial, Pick, Omit, Record, and other built-ins. This skill is part of the TypeScript roadmap and focuses on Utility Types. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 605,
+          "xp": 100
+        },
+        {
+          "id": 609,
+          "title": "Type Narrowing & Guards",
+          "description": "Safely narrowing union types at runtime. This skill is part of the TypeScript roadmap and focuses on Type Narrowing & Guards. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 605,
+          "xp": 100
+        },
+        {
+          "id": 610,
+          "title": "TypeScript with React",
+          "description": "Typing props, state, hooks, and events in React. This skill is part of the TypeScript roadmap and focuses on TypeScript with React. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 608,
+          "xp": 125
+        }
       ]
     },
     {
       "id": 7,
       "slug": "python",
       "title": "Python Programming",
-      "description": "Learn Python from the fundamentals through OOP, error handling, and working with real APIs.",
-      "icon": "🐍",
+      "description": "Learn Python from the fundamentals through OOP, error handling, and working with real APIs. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83d/udc0d",
       "color": "#3776AB",
       "category": "python",
       "totalSkills": 10,
       "difficulty": "Beginner",
       "python": [
-        { "id": 701, "title": "Python Basics & Syntax", "description": "Installing Python and writing your first scripts.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 702, "title": "Data Types & Variables", "description": "Numbers, strings, booleans, and type conversion.", "completed": false, "locked": true, "prerequisite": 701, "xp": 50 },
-        { "id": 703, "title": "Control Flow", "description": "If statements, loops, and boolean logic.", "completed": false, "locked": true, "prerequisite": 701, "xp": 50 },
-        { "id": 704, "title": "Functions & Scope", "description": "Defining functions, arguments, and variable scope.", "completed": false, "locked": true, "prerequisite": 703, "xp": 75 },
-        { "id": 705, "title": "Lists, Tuples & Dictionaries", "description": "Core Python data structures and their methods.", "completed": false, "locked": true, "prerequisite": 702, "xp": 75 },
-        { "id": 706, "title": "File Handling", "description": "Reading from and writing to files.", "completed": false, "locked": true, "prerequisite": 704, "xp": 75 },
-        { "id": 707, "title": "Object-Oriented Programming", "description": "Classes, objects, inheritance, and polymorphism.", "completed": false, "locked": true, "prerequisite": 704, "xp": 100 },
-        { "id": 708, "title": "Error Handling & Exceptions", "description": "Try/except blocks and custom exceptions.", "completed": false, "locked": true, "prerequisite": 704, "xp": 75 },
-        { "id": 709, "title": "Modules & Packages", "description": "Organizing code and using pip-installed libraries.", "completed": false, "locked": true, "prerequisite": 707, "xp": 75 },
-        { "id": 710, "title": "Working with APIs", "description": "Making HTTP requests with the requests library.", "completed": false, "locked": true, "prerequisite": 709, "xp": 100 }
+        {
+          "id": 701,
+          "title": "Python Basics & Syntax",
+          "description": "Installing Python and writing your first scripts. This skill is part of the Python Programming roadmap and focuses on Python Basics & Syntax. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 702,
+          "title": "Data Types & Variables",
+          "description": "Numbers, strings, booleans, and type conversion. This skill is part of the Python Programming roadmap and focuses on Data Types & Variables. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 701,
+          "xp": 50
+        },
+        {
+          "id": 703,
+          "title": "Control Flow",
+          "description": "If statements, loops, and boolean logic. This skill is part of the Python Programming roadmap and focuses on Control Flow. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 701,
+          "xp": 50
+        },
+        {
+          "id": 704,
+          "title": "Functions & Scope",
+          "description": "Defining functions, arguments, and variable scope. This skill is part of the Python Programming roadmap and focuses on Functions & Scope. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 703,
+          "xp": 75
+        },
+        {
+          "id": 705,
+          "title": "Lists, Tuples & Dictionaries",
+          "description": "Core Python data structures and their methods. This skill is part of the Python Programming roadmap and focuses on Lists, Tuples & Dictionaries. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 702,
+          "xp": 75
+        },
+        {
+          "id": 706,
+          "title": "File Handling",
+          "description": "Reading from and writing to files. This skill is part of the Python Programming roadmap and focuses on File Handling. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 704,
+          "xp": 75
+        },
+        {
+          "id": 707,
+          "title": "Object-Oriented Programming",
+          "description": "Classes, objects, inheritance, and polymorphism. This skill is part of the Python Programming roadmap and focuses on Object-Oriented Programming. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 704,
+          "xp": 100
+        },
+        {
+          "id": 708,
+          "title": "Error Handling & Exceptions",
+          "description": "Try/except blocks and custom exceptions. This skill is part of the Python Programming roadmap and focuses on Error Handling & Exceptions. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 704,
+          "xp": 75
+        },
+        {
+          "id": 709,
+          "title": "Modules & Packages",
+          "description": "Organizing code and using pip-installed libraries. This skill is part of the Python Programming roadmap and focuses on Modules & Packages. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 707,
+          "xp": 75
+        },
+        {
+          "id": 710,
+          "title": "Working with APIs",
+          "description": "Making HTTP requests with the requests library. This skill is part of the Python Programming roadmap and focuses on Working with APIs. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 709,
+          "xp": 100
+        }
       ]
     },
     {
       "id": 8,
       "slug": "devops",
       "title": "DevOps & Cloud",
-      "description": "Learn Linux, Git, Docker, CI/CD, Kubernetes, and cloud fundamentals for shipping software reliably.",
-      "icon": "☁️",
+      "description": "Learn Linux, Git, Docker, CI/CD, Kubernetes, and cloud fundamentals for shipping software reliably. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/u2601/ufe0f",
       "color": "#FF9900",
       "category": "devops",
       "totalSkills": 10,
       "difficulty": "Advanced",
       "devops": [
-        { "id": 801, "title": "Linux & Command Line Basics", "description": "Navigating the filesystem and core shell commands.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 802, "title": "Version Control with Git", "description": "Branching, merging, and collaborative workflows.", "completed": false, "locked": true, "prerequisite": 801, "xp": 50 },
-        { "id": 803, "title": "CI/CD Fundamentals", "description": "Automating builds, tests, and deployments.", "completed": false, "locked": true, "prerequisite": 802, "xp": 100 },
-        { "id": 804, "title": "Docker Basics", "description": "Images, containers, and the Dockerfile.", "completed": false, "locked": true, "prerequisite": 801, "xp": 100 },
-        { "id": 805, "title": "Docker Compose & Multi-Container Apps", "description": "Orchestrating multiple services locally.", "completed": false, "locked": true, "prerequisite": 804, "xp": 100 },
-        { "id": 806, "title": "Introduction to Kubernetes", "description": "Pods, deployments, and services at a high level.", "completed": false, "locked": true, "prerequisite": 805, "xp": 150 },
-        { "id": 807, "title": "Cloud Computing Basics", "description": "Core concepts across AWS, Azure, and GCP.", "completed": false, "locked": true, "prerequisite": 801, "xp": 100 },
-        { "id": 808, "title": "Infrastructure as Code", "description": "Provisioning cloud resources with Terraform.", "completed": false, "locked": true, "prerequisite": 807, "xp": 125 },
-        { "id": 809, "title": "Monitoring & Logging", "description": "Observability with metrics, logs, and alerts.", "completed": false, "locked": true, "prerequisite": 803, "xp": 100 },
-        { "id": 810, "title": "Deployment Strategies", "description": "Blue-green, canary, and rolling deployments.", "completed": false, "locked": true, "prerequisite": 806, "xp": 125 }
+        {
+          "id": 801,
+          "title": "Linux & Command Line Basics",
+          "description": "Navigating the filesystem and core shell commands. This skill is part of the DevOps & Cloud roadmap and focuses on Linux & Command Line Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 802,
+          "title": "Version Control with Git",
+          "description": "Branching, merging, and collaborative workflows. This skill is part of the DevOps & Cloud roadmap and focuses on Version Control with Git. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 801,
+          "xp": 50
+        },
+        {
+          "id": 803,
+          "title": "CI/CD Fundamentals",
+          "description": "Automating builds, tests, and deployments. This skill is part of the DevOps & Cloud roadmap and focuses on CI/CD Fundamentals. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 802,
+          "xp": 100
+        },
+        {
+          "id": 804,
+          "title": "Docker Basics",
+          "description": "Images, containers, and the Dockerfile. This skill is part of the DevOps & Cloud roadmap and focuses on Docker Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 801,
+          "xp": 100
+        },
+        {
+          "id": 805,
+          "title": "Docker Compose & Multi-Container Apps",
+          "description": "Orchestrating multiple services locally. This skill is part of the DevOps & Cloud roadmap and focuses on Docker Compose & Multi-Container Apps. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 804,
+          "xp": 100
+        },
+        {
+          "id": 806,
+          "title": "Introduction to Kubernetes",
+          "description": "Pods, deployments, and services at a high level. This skill is part of the DevOps & Cloud roadmap and focuses on Introduction to Kubernetes. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 805,
+          "xp": 150
+        },
+        {
+          "id": 807,
+          "title": "Cloud Computing Basics",
+          "description": "Core concepts across AWS, Azure, and GCP. This skill is part of the DevOps & Cloud roadmap and focuses on Cloud Computing Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 801,
+          "xp": 100
+        },
+        {
+          "id": 808,
+          "title": "Infrastructure as Code",
+          "description": "Provisioning cloud resources with Terraform. This skill is part of the DevOps & Cloud roadmap and focuses on Infrastructure as Code. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 807,
+          "xp": 125
+        },
+        {
+          "id": 809,
+          "title": "Monitoring & Logging",
+          "description": "Observability with metrics, logs, and alerts. This skill is part of the DevOps & Cloud roadmap and focuses on Monitoring & Logging. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 803,
+          "xp": 100
+        },
+        {
+          "id": 810,
+          "title": "Deployment Strategies",
+          "description": "#1A8FE3-#29e652, canary, and rolling deployments. This skill is part of the DevOps & Cloud roadmap and focuses on Deployment Strategies. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 806,
+          "xp": 125
+        }
       ]
     },
     {
       "id": 9,
       "slug": "mobile",
       "title": "Mobile Development",
-      "description": "Build cross-platform mobile apps with React Native, from components to app store deployment.",
-      "icon": "📱",
+      "description": "Build cross-platform mobile apps with React Native, from components to app store deployment. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83d/udcf1",
       "color": "#A4C639",
       "category": "mobile",
       "totalSkills": 10,
       "difficulty": "Intermediate",
       "mobile": [
-        { "id": 901, "title": "React Native Basics", "description": "Setting up a project and understanding the architecture.", "completed": false, "locked": false, "prerequisite": null, "xp": 50 },
-        { "id": 902, "title": "Core Components & Styling", "description": "View, Text, Image, and Flexbox-based styling.", "completed": false, "locked": true, "prerequisite": 901, "xp": 50 },
-        { "id": 903, "title": "Navigation", "description": "Stack, tab, and drawer navigation patterns.", "completed": false, "locked": true, "prerequisite": 902, "xp": 75 },
-        { "id": 904, "title": "Handling Device APIs", "description": "Accessing camera, location, and sensors.", "completed": false, "locked": true, "prerequisite": 902, "xp": 100 },
-        { "id": 905, "title": "State Management in Mobile Apps", "description": "Managing app-wide state on mobile.", "completed": false, "locked": true, "prerequisite": 903, "xp": 100 },
-        { "id": 906, "title": "Networking & APIs in Mobile", "description": "Fetching and caching data on mobile devices.", "completed": false, "locked": true, "prerequisite": 905, "xp": 75 },
-        { "id": 907, "title": "Push Notifications", "description": "Sending and handling local and remote notifications.", "completed": false, "locked": true, "prerequisite": 906, "xp": 100 },
-        { "id": 908, "title": "App Performance Optimization", "description": "Reducing re-renders and optimizing list rendering.", "completed": false, "locked": true, "prerequisite": 906, "xp": 100 },
-        { "id": 909, "title": "Publishing to App Store & Play Store", "description": "Build configs, signing, and submission process.", "completed": false, "locked": true, "prerequisite": 908, "xp": 125 },
-        { "id": 910, "title": "Testing Mobile Apps", "description": "Unit and end-to-end testing for mobile.", "completed": false, "locked": true, "prerequisite": 908, "xp": 100 }
+        {
+          "id": 901,
+          "title": "React Native Basics",
+          "description": "Setting up a project and understanding the architecture. This skill is part of the Mobile Development roadmap and focuses on React Native Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 50
+        },
+        {
+          "id": 902,
+          "title": "Core Components & Styling",
+          "description": "View, Text, Image, and Flexbox-based styling. This skill is part of the Mobile Development roadmap and focuses on Core Components & Styling. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 901,
+          "xp": 50
+        },
+        {
+          "id": 903,
+          "title": "Navigation",
+          "description": "Stack, tab, and drawer navigation patterns. This skill is part of the Mobile Development roadmap and focuses on Navigation. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 902,
+          "xp": 75
+        },
+        {
+          "id": 904,
+          "title": "Handling Device APIs",
+          "description": "Accessing camera, location, and sensors. This skill is part of the Mobile Development roadmap and focuses on Handling Device APIs. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 902,
+          "xp": 100
+        },
+        {
+          "id": 905,
+          "title": "State Management in Mobile Apps",
+          "description": "Managing app-wide state on mobile. This skill is part of the Mobile Development roadmap and focuses on State Management in Mobile Apps. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 903,
+          "xp": 100
+        },
+        {
+          "id": 906,
+          "title": "Networking & APIs in Mobile",
+          "description": "Fetching and caching data on mobile devices. This skill is part of the Mobile Development roadmap and focuses on Networking & APIs in Mobile. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 905,
+          "xp": 75
+        },
+        {
+          "id": 907,
+          "title": "Push Notifications",
+          "description": "Sending and handling local and remote notifications. This skill is part of the Mobile Development roadmap and focuses on Push Notifications. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 906,
+          "xp": 100
+        },
+        {
+          "id": 908,
+          "title": "App Performance Optimization",
+          "description": "#D11149ucing re-renders and optimizing list rendering. This skill is part of the Mobile Development roadmap and focuses on App Performance Optimization. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 906,
+          "xp": 100
+        },
+        {
+          "id": 909,
+          "title": "Publishing to App Store & Play Store",
+          "description": "Build configs, signing, and submission process. This skill is part of the Mobile Development roadmap and focuses on Publishing to App Store & Play Store. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 908,
+          "xp": 125
+        },
+        {
+          "id": 910,
+          "title": "Testing Mobile Apps",
+          "description": "Unit and end-to-end testing for mobile. This skill is part of the Mobile Development roadmap and focuses on Testing Mobile Apps. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 908,
+          "xp": 100
+        }
       ]
     },
     {
       "id": 10,
       "slug": "system_design",
       "title": "System Design",
-      "description": "Learn to design scalable, reliable systems: load balancing, caching, sharding, and microservices.",
-      "icon": "🏗️",
+      "description": "Learn to design scalable, reliable systems: load balancing, caching, sharding, and microservices. This roadmap is organized as a sequence of bite-sized skills that build on one another, each pai#D11149 with curated resources and an XP reward, so you can track your progress, stay motivated, and steadily build real, practical proficiency in this area over time.",
+      "icon": "/ud83c/udfd7/ufe0f",
       "color": "#6366F1",
       "category": "system-design",
       "totalSkills": 10,
       "difficulty": "Advanced",
       "system_design": [
-        { "id": 1001, "title": "System Design Fundamentals", "description": "Functional vs non-functional requirements, trade-offs.", "completed": false, "locked": false, "prerequisite": null, "xp": 75 },
-        { "id": 1002, "title": "Scalability Basics", "description": "Vertical vs horizontal scaling.", "completed": false, "locked": true, "prerequisite": 1001, "xp": 75 },
-        { "id": 1003, "title": "Load Balancing", "description": "Distributing traffic across servers.", "completed": false, "locked": true, "prerequisite": 1002, "xp": 100 },
-        { "id": 1004, "title": "Caching Strategies", "description": "Cache-aside, write-through, and eviction policies.", "completed": false, "locked": true, "prerequisite": 1002, "xp": 100 },
-        { "id": 1005, "title": "Database Sharding & Replication", "description": "Scaling databases horizontally and for redundancy.", "completed": false, "locked": true, "prerequisite": 1003, "xp": 125 },
-        { "id": 1006, "title": "Microservices Architecture", "description": "Breaking monoliths into independent services.", "completed": false, "locked": true, "prerequisite": 1003, "xp": 125 },
-        { "id": 1007, "title": "Message Queues", "description": "Asynchronous communication with Kafka or RabbitMQ.", "completed": false, "locked": true, "prerequisite": 1006, "xp": 125 },
-        { "id": 1008, "title": "CAP Theorem & Consistency Models", "description": "Trade-offs between consistency, availability, partition tolerance.", "completed": false, "locked": true, "prerequisite": 1004, "xp": 125 },
-        { "id": 1009, "title": "API Gateway & Rate Limiting", "description": "Centralizing access control and throttling requests.", "completed": false, "locked": true, "prerequisite": 1006, "xp": 100 },
-        { "id": 1010, "title": "Designing a URL Shortener", "description": "End-to-end case study applying core concepts.", "completed": false, "locked": true, "prerequisite": 1008, "xp": 150 }
+        {
+          "id": 1001,
+          "title": "System Design Fundamentals",
+          "description": "Functional vs non-functional requirements, trade-offs. This skill is part of the System Design roadmap and focuses on System Design Fundamentals. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": false,
+          "prerequisite": null,
+          "xp": 75
+        },
+        {
+          "id": 1002,
+          "title": "Scalability Basics",
+          "description": "Vertical vs horizontal scaling. This skill is part of the System Design roadmap and focuses on Scalability Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1001,
+          "xp": 75
+        },
+        {
+          "id": 1003,
+          "title": "Load Balancing",
+          "description": "Distributing traffic across servers. This skill is part of the System Design roadmap and focuses on Load Balancing. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1002,
+          "xp": 100
+        },
+        {
+          "id": 1004,
+          "title": "Caching Strategies",
+          "description": "Cache-aside, write-through, and eviction policies. This skill is part of the System Design roadmap and focuses on Caching Strategies. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1002,
+          "xp": 100
+        },
+        {
+          "id": 1005,
+          "title": "Database Sharding & Replication",
+          "description": "Scaling databases horizontally and for #D11149undancy. This skill is part of the System Design roadmap and focuses on Database Sharding & Replication. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1003,
+          "xp": 125
+        },
+        {
+          "id": 1006,
+          "title": "Microservices Architecture",
+          "description": "Breaking monoliths into independent services. This skill is part of the System Design roadmap and focuses on Microservices Architecture. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1003,
+          "xp": 125
+        },
+        {
+          "id": 1007,
+          "title": "Message Queues",
+          "description": "Asynchronous communication with Kafka or RabbitMQ. This skill is part of the System Design roadmap and focuses on Message Queues. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1006,
+          "xp": 125
+        },
+        {
+          "id": 1008,
+          "title": "CAP Theorem & Consistency Models",
+          "description": "Trade-offs between consistency, availability, partition tolerance. This skill is part of the System Design roadmap and focuses on CAP Theorem & Consistency Models. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1004,
+          "xp": 125
+        },
+        {
+          "id": 1009,
+          "title": "API Gateway & Rate Limiting",
+          "description": "Centralizing access control and throttling requests. This skill is part of the System Design roadmap and focuses on API Gateway & Rate Limiting. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1006,
+          "xp": 100
+        },
+        {
+          "id": 1010,
+          "title": "Designing a URL Shortener",
+          "description": "End-to-end case study applying core concepts. This skill is part of the System Design roadmap and focuses on Designing a URL Shortener. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
+          "completed": false,
+          "locked": true,
+          "prerequisite": 1008,
+          "xp": 150
+        }
       ]
     }
   ],
   "resources": [
-    { "id": 1, "skillId": 101, "roadmap": "frontend", "title": "MDN: HTML Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML" },
-    { "id": 2, "skillId": 102, "roadmap": "frontend", "title": "MDN: CSS Basics", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS" },
-    { "id": 3, "skillId": 103, "roadmap": "frontend", "title": "A Complete Guide to Flexbox", "type": "article", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" },
-    { "id": 4, "skillId": 104, "roadmap": "frontend", "title": "MDN: Responsive Design", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" },
-    { "id": 5, "skillId": 105, "roadmap": "frontend", "title": "JavaScript.info: The Basics", "type": "docs", "url": "https://javascript.info" },
-    { "id": 6, "skillId": 106, "roadmap": "frontend", "title": "MDN: Introduction to the DOM", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" },
-    { "id": 7, "skillId": 107, "roadmap": "frontend", "title": "JavaScript.info: Modern JS", "type": "docs", "url": "https://javascript.info/js" },
-    { "id": 8, "skillId": 108, "roadmap": "frontend", "title": "MDN: Using the Fetch API", "type": "docs", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" },
-    { "id": 9, "skillId": 109, "roadmap": "frontend", "title": "GitHub: Git Handbook", "type": "docs", "url": "https://docs.github.com/en/get-started/using-git/about-git" },
-    { "id": 10, "skillId": 110, "roadmap": "frontend", "title": "Chrome DevTools Documentation", "type": "docs", "url": "https://developer.chrome.com/docs/devtools" },
-
-    { "id": 11, "skillId": 201, "roadmap": "react", "title": "React Docs: Writing Markup with JSX", "type": "docs", "url": "https://react.dev/learn/writing-markup-with-jsx" },
-    { "id": 12, "skillId": 202, "roadmap": "react", "title": "React Docs: Passing Props", "type": "docs", "url": "https://react.dev/learn/passing-props-to-a-component" },
-    { "id": 13, "skillId": 203, "roadmap": "react", "title": "React Docs: State - A Component's Memory", "type": "docs", "url": "https://react.dev/learn/state-a-components-memory" },
-    { "id": 14, "skillId": 204, "roadmap": "react", "title": "React Docs: Responding to Events", "type": "docs", "url": "https://react.dev/learn/responding-to-events" },
-    { "id": 15, "skillId": 205, "roadmap": "react", "title": "React Docs: Synchronizing with Effects", "type": "docs", "url": "https://react.dev/learn/synchronizing-with-effects" },
-    { "id": 16, "skillId": 206, "roadmap": "react", "title": "React Docs: Rendering Lists", "type": "docs", "url": "https://react.dev/learn/rendering-lists" },
-    { "id": 17, "skillId": 207, "roadmap": "react", "title": "React Docs: Reacting to Input with State", "type": "docs", "url": "https://react.dev/learn/reacting-to-input-with-state" },
-    { "id": 18, "skillId": 208, "roadmap": "react", "title": "React Docs: Passing Data Deeply with Context", "type": "docs", "url": "https://react.dev/learn/passing-data-deeply-with-context" },
-    { "id": 19, "skillId": 209, "roadmap": "react", "title": "React Router Documentation", "type": "docs", "url": "https://reactrouter.com" },
-    { "id": 20, "skillId": 210, "roadmap": "react", "title": "React Docs: Reusing Logic with Custom Hooks", "type": "docs", "url": "https://react.dev/learn/reusing-logic-with-custom-hooks" },
-
-    { "id": 21, "skillId": 301, "roadmap": "backend", "title": "Node.js Official Documentation", "type": "docs", "url": "https://nodejs.org/en/docs" },
-    { "id": 22, "skillId": 302, "roadmap": "backend", "title": "npm Docs: About Packages and Modules", "type": "docs", "url": "https://docs.npmjs.com/about-packages-and-modules" },
-    { "id": 23, "skillId": 303, "roadmap": "backend", "title": "Express.js Guide", "type": "docs", "url": "https://expressjs.com/en/guide/routing.html" },
-    { "id": 24, "skillId": 304, "roadmap": "backend", "title": "RESTful API Design Best Practices", "type": "article", "url": "https://restfulapi.net" },
-    { "id": 25, "skillId": 305, "roadmap": "backend", "title": "Express.js: Using Middleware", "type": "docs", "url": "https://expressjs.com/en/guide/using-middleware.html" },
-    { "id": 26, "skillId": 306, "roadmap": "backend", "title": "JWT.io: Introduction to JSON Web Tokens", "type": "docs", "url": "https://jwt.io/introduction" },
-    { "id": 27, "skillId": 307, "roadmap": "backend", "title": "SQL Tutorial", "type": "docs", "url": "https://www.w3schools.com/sql/" },
-    { "id": 28, "skillId": 308, "roadmap": "backend", "title": "Mongoose Documentation", "type": "docs", "url": "https://mongoosejs.com/docs/" },
-    { "id": 29, "skillId": 309, "roadmap": "backend", "title": "Express.js: Error Handling", "type": "docs", "url": "https://expressjs.com/en/guide/error-handling.html" },
-    { "id": 30, "skillId": 310, "roadmap": "backend", "title": "Deploying Node.js Apps", "type": "article", "url": "https://render.com/docs/deploy-node-express-app" },
-
-    { "id": 31, "skillId": 401, "roadmap": "dsa", "title": "Big O Cheat Sheet", "type": "article", "url": "https://www.bigocheatsheet.com" },
-    { "id": 32, "skillId": 402, "roadmap": "dsa", "title": "GeeksforGeeks: Arrays", "type": "docs", "url": "https://www.geeksforgeeks.org/array-data-structure/" },
-    { "id": 33, "skillId": 403, "roadmap": "dsa", "title": "GeeksforGeeks: Hashing", "type": "docs", "url": "https://www.geeksforgeeks.org/hashing-data-structure/" },
-    { "id": 34, "skillId": 404, "roadmap": "dsa", "title": "GeeksforGeeks: Linked List", "type": "docs", "url": "https://www.geeksforgeeks.org/data-structures/linked-list/" },
-    { "id": 35, "skillId": 405, "roadmap": "dsa", "title": "GeeksforGeeks: Stack and Queue", "type": "docs", "url": "https://www.geeksforgeeks.org/stack-data-structure/" },
-    { "id": 36, "skillId": 406, "roadmap": "dsa", "title": "GeeksforGeeks: Recursion", "type": "docs", "url": "https://www.geeksforgeeks.org/recursion/" },
-    { "id": 37, "skillId": 407, "roadmap": "dsa", "title": "GeeksforGeeks: Tree Data Structure", "type": "docs", "url": "https://www.geeksforgeeks.org/binary-tree-data-structure/" },
-    { "id": 38, "skillId": 408, "roadmap": "dsa", "title": "GeeksforGeeks: Binary Search", "type": "docs", "url": "https://www.geeksforgeeks.org/binary-search/" },
-    { "id": 39, "skillId": 409, "roadmap": "dsa", "title": "VisuAlgo: Sorting Visualizations", "type": "interactive", "url": "https://visualgo.net/en/sorting" },
-    { "id": 40, "skillId": 410, "roadmap": "dsa", "title": "GeeksforGeeks: Graph Data Structure", "type": "docs", "url": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" },
-    { "id": 41, "skillId": 411, "roadmap": "dsa", "title": "GeeksforGeeks: Dynamic Programming", "type": "docs", "url": "https://www.geeksforgeeks.org/dynamic-programming/" },
-    { "id": 42, "skillId": 412, "roadmap": "dsa", "title": "GeeksforGeeks: Greedy Algorithms", "type": "docs", "url": "https://www.geeksforgeeks.org/greedy-algorithms/" },
-
-    { "id": 43, "skillId": 501, "roadmap": "uiux", "title": "Laws of UX", "type": "article", "url": "https://lawsofux.com" },
-    { "id": 44, "skillId": 502, "roadmap": "uiux", "title": "Interaction Design Foundation: Color Theory", "type": "article", "url": "https://www.interaction-design.org/literature/topics/color-theory" },
-    { "id": 45, "skillId": 503, "roadmap": "uiux", "title": "Interaction Design Foundation: Typography", "type": "article", "url": "https://www.interaction-design.org/literature/topics/typography" },
-    { "id": 46, "skillId": 504, "roadmap": "uiux", "title": "Nielsen Norman Group: Wireframing 101", "type": "article", "url": "https://www.nngroup.com/articles/wireframing/" },
-    { "id": 47, "skillId": 505, "roadmap": "uiux", "title": "Figma Help Center: Getting Started", "type": "docs", "url": "https://help.figma.com/hc/en-us/categories/360002051813-Getting-started" },
-    { "id": 48, "skillId": 506, "roadmap": "uiux", "title": "Figma: Prototyping Basics", "type": "docs", "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma" },
-    { "id": 49, "skillId": 507, "roadmap": "uiux", "title": "Nielsen Norman Group: Usability Testing 101", "type": "article", "url": "https://www.nngroup.com/articles/usability-testing-101/" },
-    { "id": 50, "skillId": 508, "roadmap": "uiux", "title": "Material Design: Design Systems", "type": "docs", "url": "https://m3.material.io" },
-    { "id": 51, "skillId": 509, "roadmap": "uiux", "title": "W3C WAI: Web Content Accessibility Guidelines", "type": "docs", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/" },
-
-    { "id": 52, "skillId": 601, "roadmap": "typescript", "title": "TypeScript Docs: Get Started", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/intro.html" },
-    { "id": 53, "skillId": 602, "roadmap": "typescript", "title": "TypeScript Handbook: Basic Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html" },
-    { "id": 54, "skillId": 603, "roadmap": "typescript", "title": "TypeScript Handbook: Object Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html" },
-    { "id": 55, "skillId": 604, "roadmap": "typescript", "title": "TypeScript Handbook: Generics", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html" },
-    { "id": 56, "skillId": 605, "roadmap": "typescript", "title": "TypeScript Handbook: Union Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html" },
-    { "id": 57, "skillId": 606, "roadmap": "typescript", "title": "TypeScript Handbook: Enums", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/enums.html" },
-    { "id": 58, "skillId": 607, "roadmap": "typescript", "title": "TypeScript Handbook: Classes", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html" },
-    { "id": 59, "skillId": 608, "roadmap": "typescript", "title": "TypeScript Handbook: Utility Types", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html" },
-    { "id": 60, "skillId": 609, "roadmap": "typescript", "title": "TypeScript Handbook: Narrowing", "type": "docs", "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html" },
-    { "id": 61, "skillId": 610, "roadmap": "typescript", "title": "React + TypeScript Cheatsheet", "type": "docs", "url": "https://react-typescript-cheatsheet.netlify.app" },
-
-    { "id": 62, "skillId": 701, "roadmap": "python", "title": "Python Official Tutorial", "type": "docs", "url": "https://docs.python.org/3/tutorial/index.html" },
-    { "id": 63, "skillId": 702, "roadmap": "python", "title": "Python Docs: Built-in Types", "type": "docs", "url": "https://docs.python.org/3/library/stdtypes.html" },
-    { "id": 64, "skillId": 703, "roadmap": "python", "title": "Python Docs: Control Flow", "type": "docs", "url": "https://docs.python.org/3/tutorial/controlflow.html" },
-    { "id": 65, "skillId": 704, "roadmap": "python", "title": "Python Docs: Defining Functions", "type": "docs", "url": "https://docs.python.org/3/tutorial/controlflow.html" },
-    { "id": 66, "skillId": 705, "roadmap": "python", "title": "Python Docs: Data Structures", "type": "docs", "url": "https://docs.python.org/3/tutorial/datastructures.html" },
-    { "id": 67, "skillId": 706, "roadmap": "python", "title": "Python Docs: Reading and Writing Files", "type": "docs", "url": "https://docs.python.org/3/tutorial/inputoutput.html" },
-    { "id": 68, "skillId": 707, "roadmap": "python", "title": "Python Docs: Classes", "type": "docs", "url": "https://docs.python.org/3/tutorial/classes.html" },
-    { "id": 69, "skillId": 708, "roadmap": "python", "title": "Python Docs: Errors and Exceptions", "type": "docs", "url": "https://docs.python.org/3/tutorial/errors.html" },
-    { "id": 70, "skillId": 709, "roadmap": "python", "title": "Python Docs: Modules", "type": "docs", "url": "https://docs.python.org/3/tutorial/modules.html" },
-    { "id": 71, "skillId": 710, "roadmap": "python", "title": "Requests Library Documentation", "type": "docs", "url": "https://requests.readthedocs.io/en/latest/" },
-
-    { "id": 72, "skillId": 801, "roadmap": "devops", "title": "Linux Command Line Basics", "type": "docs", "url": "https://ubuntu.com/tutorials/command-line-for-beginners" },
-    { "id": 73, "skillId": 802, "roadmap": "devops", "title": "Git Documentation", "type": "docs", "url": "https://git-scm.com/doc" },
-    { "id": 74, "skillId": 803, "roadmap": "devops", "title": "GitHub Actions: About Continuous Integration", "type": "docs", "url": "https://docs.github.com/en/actions/about-github-actions/about-continuous-integration" },
-    { "id": 75, "skillId": 804, "roadmap": "devops", "title": "Docker: Get Started Guide", "type": "docs", "url": "https://docs.docker.com/get-started/" },
-    { "id": 76, "skillId": 805, "roadmap": "devops", "title": "Docker Compose Overview", "type": "docs", "url": "https://docs.docker.com/compose/" },
-    { "id": 77, "skillId": 806, "roadmap": "devops", "title": "Kubernetes Documentation: Concepts", "type": "docs", "url": "https://kubernetes.io/docs/concepts/" },
-    { "id": 78, "skillId": 807, "roadmap": "devops", "title": "AWS Cloud Practitioner Essentials", "type": "docs", "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/" },
-    { "id": 79, "skillId": 808, "roadmap": "devops", "title": "Terraform Documentation", "type": "docs", "url": "https://developer.hashicorp.com/terraform/docs" },
-    { "id": 80, "skillId": 809, "roadmap": "devops", "title": "Grafana: Introduction to Observability", "type": "docs", "url": "https://grafana.com/docs/grafana/latest/introduction/" },
-    { "id": 81, "skillId": 810, "roadmap": "devops", "title": "Martin Fowler: Blue-Green Deployment", "type": "article", "url": "https://martinfowler.com/bliki/BlueGreenDeployment.html" },
-
-    { "id": 82, "skillId": 901, "roadmap": "mobile", "title": "React Native Documentation", "type": "docs", "url": "https://reactnative.dev/docs/getting-started" },
-    { "id": 83, "skillId": 902, "roadmap": "mobile", "title": "React Native: Core Components", "type": "docs", "url": "https://reactnative.dev/docs/components-and-apis" },
-    { "id": 84, "skillId": 903, "roadmap": "mobile", "title": "React Navigation Documentation", "type": "docs", "url": "https://reactnavigation.org/docs/getting-started" },
-    { "id": 85, "skillId": 904, "roadmap": "mobile", "title": "Expo Documentation: Camera", "type": "docs", "url": "https://docs.expo.dev/versions/latest/sdk/camera/" },
-    { "id": 86, "skillId": 905, "roadmap": "mobile", "title": "React Native: Managing State", "type": "docs", "url": "https://reactnative.dev/docs/state" },
-    { "id": 87, "skillId": 906, "roadmap": "mobile", "title": "React Native: Networking", "type": "docs", "url": "https://reactnative.dev/docs/network" },
-    { "id": 88, "skillId": 907, "roadmap": "mobile", "title": "Expo Documentation: Push Notifications", "type": "docs", "url": "https://docs.expo.dev/push-notifications/overview/" },
-    { "id": 89, "skillId": 908, "roadmap": "mobile", "title": "React Native: Performance Overview", "type": "docs", "url": "https://reactnative.dev/docs/performance" },
-    { "id": 90, "skillId": 909, "roadmap": "mobile", "title": "Expo Documentation: Distribution", "type": "docs", "url": "https://docs.expo.dev/distribution/introduction/" },
-    { "id": 91, "skillId": 910, "roadmap": "mobile", "title": "React Native Testing Library", "type": "docs", "url": "https://callstack.github.io/react-native-testing-library/" },
-
-    { "id": 92, "skillId": 1001, "roadmap": "system_design", "title": "System Design Primer (GitHub)", "type": "docs", "url": "https://github.com/donnemartin/system-design-primer" },
-    { "id": 93, "skillId": 1002, "roadmap": "system_design", "title": "AWS: Horizontal vs Vertical Scaling", "type": "article", "url": "https://aws.amazon.com/what-is/horizontal-scaling/" },
-    { "id": 94, "skillId": 1003, "roadmap": "system_design", "title": "NGINX: What Is Load Balancing", "type": "article", "url": "https://www.nginx.com/resources/glossary/load-balancing/" },
-    { "id": 95, "skillId": 1004, "roadmap": "system_design", "title": "AWS: Caching Overview", "type": "article", "url": "https://aws.amazon.com/caching/" },
-    { "id": 96, "skillId": 1005, "roadmap": "system_design", "title": "MongoDB: Sharding Documentation", "type": "docs", "url": "https://www.mongodb.com/docs/manual/sharding/" },
-    { "id": 97, "skillId": 1006, "roadmap": "system_design", "title": "Martin Fowler: Microservices", "type": "article", "url": "https://martinfowler.com/articles/microservices.html" },
-    { "id": 98, "skillId": 1007, "roadmap": "system_design", "title": "Apache Kafka Documentation", "type": "docs", "url": "https://kafka.apache.org/documentation/" },
-    { "id": 99, "skillId": 1008, "roadmap": "system_design", "title": "IBM: CAP Theorem Explained", "type": "article", "url": "https://www.ibm.com/topics/cap-theorem" },
-    { "id": 100, "skillId": 1009, "roadmap": "system_design", "title": "AWS: What Is an API Gateway", "type": "article", "url": "https://aws.amazon.com/api-gateway/" },
-    { "id": 101, "skillId": 1010, "roadmap": "system_design", "title": "System Design Primer: Designing a URL Shortener", "type": "docs", "url": "https://github.com/donnemartin/system-design-primer#design-a-url-shortener" }
+    {
+      "id": 1,
+      "skillId": 101,
+      "roadmap": "frontend",
+      "title": "MDN: HTML Basics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+    },
+    {
+      "id": 102,
+      "skillId": 101,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 103,
+      "skillId": 101,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 2,
+      "skillId": 102,
+      "roadmap": "frontend",
+      "title": "MDN: CSS Basics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+    },
+    {
+      "id": 104,
+      "skillId": 102,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 105,
+      "skillId": 102,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 3,
+      "skillId": 103,
+      "roadmap": "frontend",
+      "title": "A Complete Guide to Flexbox",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+    },
+    {
+      "id": 106,
+      "skillId": 103,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 107,
+      "skillId": 103,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 4,
+      "skillId": 104,
+      "roadmap": "frontend",
+      "title": "MDN: Responsive Design",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+    },
+    {
+      "id": 108,
+      "skillId": 104,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 109,
+      "skillId": 104,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 5,
+      "skillId": 105,
+      "roadmap": "frontend",
+      "title": "JavaScript.info: The Basics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://javascript.info"
+    },
+    {
+      "id": 110,
+      "skillId": 105,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 111,
+      "skillId": 105,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 6,
+      "skillId": 106,
+      "roadmap": "frontend",
+      "title": "MDN: Introduction to the DOM",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+    },
+    {
+      "id": 112,
+      "skillId": 106,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 113,
+      "skillId": 106,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 7,
+      "skillId": 107,
+      "roadmap": "frontend",
+      "title": "JavaScript.info: Modern JS",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://javascript.info/js"
+    },
+    {
+      "id": 114,
+      "skillId": 107,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 115,
+      "skillId": 107,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 8,
+      "skillId": 108,
+      "roadmap": "frontend",
+      "title": "MDN: Using the Fetch API",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+    },
+    {
+      "id": 116,
+      "skillId": 108,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 117,
+      "skillId": 108,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 9,
+      "skillId": 109,
+      "roadmap": "frontend",
+      "title": "GitHub: Git Handbook",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.github.com/en/get-started/using-git/about-git"
+    },
+    {
+      "id": 118,
+      "skillId": 109,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 119,
+      "skillId": 109,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 10,
+      "skillId": 110,
+      "roadmap": "frontend",
+      "title": "Chrome DevTools Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.chrome.com/docs/devtools"
+    },
+    {
+      "id": 120,
+      "skillId": 110,
+      "roadmap": "frontend",
+      "title": "freeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+    },
+    {
+      "id": 121,
+      "skillId": 110,
+      "roadmap": "frontend",
+      "title": "Traversy Media YouTube Channel",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 11,
+      "skillId": 201,
+      "roadmap": "react",
+      "title": "React Docs: Writing Markup with JSX",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/writing-markup-with-jsx"
+    },
+    {
+      "id": 122,
+      "skillId": 201,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 123,
+      "skillId": 201,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 12,
+      "skillId": 202,
+      "roadmap": "react",
+      "title": "React Docs: Passing Props",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/passing-props-to-a-component"
+    },
+    {
+      "id": 124,
+      "skillId": 202,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 125,
+      "skillId": 202,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 13,
+      "skillId": 203,
+      "roadmap": "react",
+      "title": "React Docs: State - A Component's Memory",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/state-a-components-memory"
+    },
+    {
+      "id": 126,
+      "skillId": 203,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 127,
+      "skillId": 203,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 14,
+      "skillId": 204,
+      "roadmap": "react",
+      "title": "React Docs: Responding to Events",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/responding-to-events"
+    },
+    {
+      "id": 128,
+      "skillId": 204,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 129,
+      "skillId": 204,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 15,
+      "skillId": 205,
+      "roadmap": "react",
+      "title": "React Docs: Synchronizing with Effects",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/synchronizing-with-effects"
+    },
+    {
+      "id": 130,
+      "skillId": 205,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 131,
+      "skillId": 205,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 16,
+      "skillId": 206,
+      "roadmap": "react",
+      "title": "React Docs: Rendering Lists",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/rendering-lists"
+    },
+    {
+      "id": 132,
+      "skillId": 206,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 133,
+      "skillId": 206,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 17,
+      "skillId": 207,
+      "roadmap": "react",
+      "title": "React Docs: Reacting to Input with State",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/reacting-to-input-with-state"
+    },
+    {
+      "id": 134,
+      "skillId": 207,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 135,
+      "skillId": 207,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 18,
+      "skillId": 208,
+      "roadmap": "react",
+      "title": "React Docs: Passing Data Deeply with Context",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/passing-data-deeply-with-context"
+    },
+    {
+      "id": 136,
+      "skillId": 208,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 137,
+      "skillId": 208,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 19,
+      "skillId": 209,
+      "roadmap": "react",
+      "title": "React Router Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactrouter.com"
+    },
+    {
+      "id": 138,
+      "skillId": 209,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 139,
+      "skillId": 209,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 20,
+      "skillId": 210,
+      "roadmap": "react",
+      "title": "React Docs: Reusing Logic with Custom Hooks",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+    },
+    {
+      "id": 140,
+      "skillId": 210,
+      "roadmap": "react",
+      "title": "React Official Tutorial: Tic-Tac-Toe",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe"
+    },
+    {
+      "id": 141,
+      "skillId": 210,
+      "roadmap": "react",
+      "title": "freeCodeCamp: Front End Development Libraries (React)",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/"
+    },
+    {
+      "id": 21,
+      "skillId": 301,
+      "roadmap": "backend",
+      "title": "Node.js Official Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://nodejs.org/en/docs"
+    },
+    {
+      "id": 142,
+      "skillId": 301,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 143,
+      "skillId": 301,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 22,
+      "skillId": 302,
+      "roadmap": "backend",
+      "title": "npm Docs: About Packages and Modules",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.npmjs.com/about-packages-and-modules"
+    },
+    {
+      "id": 144,
+      "skillId": 302,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 145,
+      "skillId": 302,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 23,
+      "skillId": 303,
+      "roadmap": "backend",
+      "title": "Express.js Guide",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://expressjs.com/en/guide/routing.html"
+    },
+    {
+      "id": 146,
+      "skillId": 303,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 147,
+      "skillId": 303,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 24,
+      "skillId": 304,
+      "roadmap": "backend",
+      "title": "RESTful API Design Best Practices",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://restfulapi.net"
+    },
+    {
+      "id": 148,
+      "skillId": 304,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 149,
+      "skillId": 304,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 25,
+      "skillId": 305,
+      "roadmap": "backend",
+      "title": "Express.js: Using Middleware",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://expressjs.com/en/guide/using-middleware.html"
+    },
+    {
+      "id": 150,
+      "skillId": 305,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 151,
+      "skillId": 305,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 26,
+      "skillId": 306,
+      "roadmap": "backend",
+      "title": "JWT.io: Introduction to JSON Web Tokens",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://jwt.io/introduction"
+    },
+    {
+      "id": 152,
+      "skillId": 306,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 153,
+      "skillId": 306,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 27,
+      "skillId": 307,
+      "roadmap": "backend",
+      "title": "SQL Tutorial",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.w3schools.com/sql/"
+    },
+    {
+      "id": 154,
+      "skillId": 307,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 155,
+      "skillId": 307,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 28,
+      "skillId": 308,
+      "roadmap": "backend",
+      "title": "Mongoose Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://mongoosejs.com/docs/"
+    },
+    {
+      "id": 156,
+      "skillId": 308,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 157,
+      "skillId": 308,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 29,
+      "skillId": 309,
+      "roadmap": "backend",
+      "title": "Express.js: Error Handling",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://expressjs.com/en/guide/error-handling.html"
+    },
+    {
+      "id": 158,
+      "skillId": 309,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 159,
+      "skillId": 309,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 30,
+      "skillId": 310,
+      "roadmap": "backend",
+      "title": "Deploying Node.js Apps",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://render.com/docs/deploy-node-express-app"
+    },
+    {
+      "id": 160,
+      "skillId": 310,
+      "roadmap": "backend",
+      "title": "freeCodeCamp: Back End Development and APIs",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+    },
+    {
+      "id": 161,
+      "skillId": 310,
+      "roadmap": "backend",
+      "title": "Traversy Media: Node.js Crash Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.youtube.com/@TraversyMedia"
+    },
+    {
+      "id": 31,
+      "skillId": 401,
+      "roadmap": "dsa",
+      "title": "Big O Cheat Sheet",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.bigocheatsheet.com"
+    },
+    {
+      "id": 162,
+      "skillId": 401,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 163,
+      "skillId": 401,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 32,
+      "skillId": 402,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Arrays",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/array-data-structure/"
+    },
+    {
+      "id": 164,
+      "skillId": 402,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 165,
+      "skillId": 402,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 33,
+      "skillId": 403,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Hashing",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/hashing-data-structure/"
+    },
+    {
+      "id": 166,
+      "skillId": 403,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 167,
+      "skillId": 403,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 34,
+      "skillId": 404,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Linked List",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/data-structures/linked-list/"
+    },
+    {
+      "id": 168,
+      "skillId": 404,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 169,
+      "skillId": 404,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 35,
+      "skillId": 405,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Stack and Queue",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/stack-data-structure/"
+    },
+    {
+      "id": 170,
+      "skillId": 405,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 171,
+      "skillId": 405,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 36,
+      "skillId": 406,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Recursion",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/recursion/"
+    },
+    {
+      "id": 172,
+      "skillId": 406,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 173,
+      "skillId": 406,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 37,
+      "skillId": 407,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Tree Data Structure",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/binary-tree-data-structure/"
+    },
+    {
+      "id": 174,
+      "skillId": 407,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 175,
+      "skillId": 407,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 38,
+      "skillId": 408,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Binary Search",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/binary-search/"
+    },
+    {
+      "id": 176,
+      "skillId": 408,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 177,
+      "skillId": 408,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 39,
+      "skillId": 409,
+      "roadmap": "dsa",
+      "title": "VisuAlgo: Sorting Visualizations",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://visualgo.net/en/sorting"
+    },
+    {
+      "id": 178,
+      "skillId": 409,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 179,
+      "skillId": 409,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 40,
+      "skillId": 410,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Graph Data Structure",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"
+    },
+    {
+      "id": 180,
+      "skillId": 410,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 181,
+      "skillId": 410,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 41,
+      "skillId": 411,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Dynamic Programming",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/dynamic-programming/"
+    },
+    {
+      "id": 182,
+      "skillId": 411,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 183,
+      "skillId": 411,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 42,
+      "skillId": 412,
+      "roadmap": "dsa",
+      "title": "GeeksforGeeks: Greedy Algorithms",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.geeksforgeeks.org/greedy-algorithms/"
+    },
+    {
+      "id": 184,
+      "skillId": 412,
+      "roadmap": "dsa",
+      "title": "LeetCode Practice Problems",
+      "type": "practice",
+      "color": "#F37933",
+      "url": "https://leetcode.com"
+    },
+    {
+      "id": 185,
+      "skillId": 412,
+      "roadmap": "dsa",
+      "title": "NeetCode: Data Structures & Algorithms Roadmap",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://neetcode.io"
+    },
+    {
+      "id": 43,
+      "skillId": 501,
+      "roadmap": "uiux",
+      "title": "Laws of UX",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://lawsofux.com"
+    },
+    {
+      "id": 186,
+      "skillId": 501,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 187,
+      "skillId": 501,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 44,
+      "skillId": 502,
+      "roadmap": "uiux",
+      "title": "Interaction Design Foundation: Color Theory",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.interaction-design.org/literature/topics/color-theory"
+    },
+    {
+      "id": 188,
+      "skillId": 502,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 189,
+      "skillId": 502,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 45,
+      "skillId": 503,
+      "roadmap": "uiux",
+      "title": "Interaction Design Foundation: Typography",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.interaction-design.org/literature/topics/typography"
+    },
+    {
+      "id": 190,
+      "skillId": 503,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 191,
+      "skillId": 503,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 46,
+      "skillId": 504,
+      "roadmap": "uiux",
+      "title": "Nielsen Norman Group: Wireframing 101",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.nngroup.com/articles/wireframing/"
+    },
+    {
+      "id": 192,
+      "skillId": 504,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 193,
+      "skillId": 504,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 47,
+      "skillId": 505,
+      "roadmap": "uiux",
+      "title": "Figma Help Center: Getting Started",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://help.figma.com/hc/en-us/categories/360002051813-Getting-started"
+    },
+    {
+      "id": 194,
+      "skillId": 505,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 195,
+      "skillId": 505,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 48,
+      "skillId": 506,
+      "roadmap": "uiux",
+      "title": "Figma: Prototyping Basics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma"
+    },
+    {
+      "id": 196,
+      "skillId": 506,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 197,
+      "skillId": 506,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 49,
+      "skillId": 507,
+      "roadmap": "uiux",
+      "title": "Nielsen Norman Group: Usability Testing 101",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.nngroup.com/articles/usability-testing-101/"
+    },
+    {
+      "id": 198,
+      "skillId": 507,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 199,
+      "skillId": 507,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 50,
+      "skillId": 508,
+      "roadmap": "uiux",
+      "title": "Material Design: Design Systems",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://m3.material.io"
+    },
+    {
+      "id": 200,
+      "skillId": 508,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 201,
+      "skillId": 508,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 51,
+      "skillId": 509,
+      "roadmap": "uiux",
+      "title": "W3C WAI: Web Content Accessibility Guidelines",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+    },
+    {
+      "id": 202,
+      "skillId": 509,
+      "roadmap": "uiux",
+      "title": "Refactoring UI by Adam Wathan & Steve Schoger",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.refactoringui.com"
+    },
+    {
+      "id": 203,
+      "skillId": 509,
+      "roadmap": "uiux",
+      "title": "Figma Community: Free UI Kits & Templates",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://www.figma.com/community"
+    },
+    {
+      "id": 52,
+      "skillId": 601,
+      "roadmap": "typescript",
+      "title": "TypeScript Docs: Get Started",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+    },
+    {
+      "id": 204,
+      "skillId": 601,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 205,
+      "skillId": 601,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 53,
+      "skillId": 602,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Basic Types",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html"
+    },
+    {
+      "id": 206,
+      "skillId": 602,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 207,
+      "skillId": 602,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 54,
+      "skillId": 603,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Object Types",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+    },
+    {
+      "id": 208,
+      "skillId": 603,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 209,
+      "skillId": 603,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 55,
+      "skillId": 604,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Generics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+    },
+    {
+      "id": 210,
+      "skillId": 604,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 211,
+      "skillId": 604,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 56,
+      "skillId": 605,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Union Types",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+    },
+    {
+      "id": 212,
+      "skillId": 605,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 213,
+      "skillId": 605,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 57,
+      "skillId": 606,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Enums",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/enums.html"
+    },
+    {
+      "id": 214,
+      "skillId": 606,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 215,
+      "skillId": 606,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 58,
+      "skillId": 607,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Classes",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+    },
+    {
+      "id": 216,
+      "skillId": 607,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 217,
+      "skillId": 607,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 59,
+      "skillId": 608,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Utility Types",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html"
+    },
+    {
+      "id": 218,
+      "skillId": 608,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 219,
+      "skillId": 608,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 60,
+      "skillId": 609,
+      "roadmap": "typescript",
+      "title": "TypeScript Handbook: Narrowing",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+    },
+    {
+      "id": 220,
+      "skillId": 609,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 221,
+      "skillId": 609,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 61,
+      "skillId": 610,
+      "roadmap": "typescript",
+      "title": "React + TypeScript Cheatsheet",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://react-typescript-cheatsheet.netlify.app"
+    },
+    {
+      "id": 222,
+      "skillId": 610,
+      "roadmap": "typescript",
+      "title": "Total TypeScript: Free Tutorials",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.totaltypescript.com"
+    },
+    {
+      "id": 223,
+      "skillId": 610,
+      "roadmap": "typescript",
+      "title": "freeCodeCamp: Learn TypeScript",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-typescript-beginners-guide/"
+    },
+    {
+      "id": 62,
+      "skillId": 701,
+      "roadmap": "python",
+      "title": "Python Official Tutorial",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/index.html"
+    },
+    {
+      "id": 224,
+      "skillId": 701,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 225,
+      "skillId": 701,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 63,
+      "skillId": 702,
+      "roadmap": "python",
+      "title": "Python Docs: Built-in Types",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/library/stdtypes.html"
+    },
+    {
+      "id": 226,
+      "skillId": 702,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 227,
+      "skillId": 702,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 64,
+      "skillId": 703,
+      "roadmap": "python",
+      "title": "Python Docs: Control Flow",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html"
+    },
+    {
+      "id": 228,
+      "skillId": 703,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 229,
+      "skillId": 703,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 65,
+      "skillId": 704,
+      "roadmap": "python",
+      "title": "Python Docs: Defining Functions",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/controlflow.html"
+    },
+    {
+      "id": 230,
+      "skillId": 704,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 231,
+      "skillId": 704,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 66,
+      "skillId": 705,
+      "roadmap": "python",
+      "title": "Python Docs: Data Structures",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html"
+    },
+    {
+      "id": 232,
+      "skillId": 705,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 233,
+      "skillId": 705,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 67,
+      "skillId": 706,
+      "roadmap": "python",
+      "title": "Python Docs: Reading and Writing Files",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/inputoutput.html"
+    },
+    {
+      "id": 234,
+      "skillId": 706,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 235,
+      "skillId": 706,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 68,
+      "skillId": 707,
+      "roadmap": "python",
+      "title": "Python Docs: Classes",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/classes.html"
+    },
+    {
+      "id": 236,
+      "skillId": 707,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 237,
+      "skillId": 707,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 69,
+      "skillId": 708,
+      "roadmap": "python",
+      "title": "Python Docs: Errors and Exceptions",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/errors.html"
+    },
+    {
+      "id": 238,
+      "skillId": 708,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 239,
+      "skillId": 708,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 70,
+      "skillId": 709,
+      "roadmap": "python",
+      "title": "Python Docs: Modules",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.python.org/3/tutorial/modules.html"
+    },
+    {
+      "id": 240,
+      "skillId": 709,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 241,
+      "skillId": 709,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 71,
+      "skillId": 710,
+      "roadmap": "python",
+      "title": "Requests Library Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://requests.readthedocs.io/en/latest/"
+    },
+    {
+      "id": 242,
+      "skillId": 710,
+      "roadmap": "python",
+      "title": "Real Python Tutorials",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://realpython.com"
+    },
+    {
+      "id": 243,
+      "skillId": 710,
+      "roadmap": "python",
+      "title": "freeCodeCamp: Scientific Computing with Python",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "id": 72,
+      "skillId": 801,
+      "roadmap": "devops",
+      "title": "Linux Command Line Basics",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://ubuntu.com/tutorials/command-line-for-beginners"
+    },
+    {
+      "id": 244,
+      "skillId": 801,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 245,
+      "skillId": 801,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 73,
+      "skillId": 802,
+      "roadmap": "devops",
+      "title": "Git Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://git-scm.com/doc"
+    },
+    {
+      "id": 246,
+      "skillId": 802,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 247,
+      "skillId": 802,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 74,
+      "skillId": 803,
+      "roadmap": "devops",
+      "title": "GitHub Actions: About Continuous Integration",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.github.com/en/actions/about-github-actions/about-continuous-integration"
+    },
+    {
+      "id": 248,
+      "skillId": 803,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 249,
+      "skillId": 803,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 75,
+      "skillId": 804,
+      "roadmap": "devops",
+      "title": "Docker: Get Started Guide",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.docker.com/get-started/"
+    },
+    {
+      "id": 250,
+      "skillId": 804,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 251,
+      "skillId": 804,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 76,
+      "skillId": 805,
+      "roadmap": "devops",
+      "title": "Docker Compose Overview",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.docker.com/compose/"
+    },
+    {
+      "id": 252,
+      "skillId": 805,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 253,
+      "skillId": 805,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 77,
+      "skillId": 806,
+      "roadmap": "devops",
+      "title": "Kubernetes Documentation: Concepts",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://kubernetes.io/docs/concepts/"
+    },
+    {
+      "id": 254,
+      "skillId": 806,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 255,
+      "skillId": 806,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 78,
+      "skillId": 807,
+      "roadmap": "devops",
+      "title": "AWS Cloud Practitioner Essentials",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/"
+    },
+    {
+      "id": 256,
+      "skillId": 807,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 257,
+      "skillId": 807,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 79,
+      "skillId": 808,
+      "roadmap": "devops",
+      "title": "Terraform Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://developer.hashicorp.com/terraform/docs"
+    },
+    {
+      "id": 258,
+      "skillId": 808,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 259,
+      "skillId": 808,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 80,
+      "skillId": 809,
+      "roadmap": "devops",
+      "title": "Grafana: Introduction to Observability",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://grafana.com/docs/grafana/latest/introduction/"
+    },
+    {
+      "id": 260,
+      "skillId": 809,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 261,
+      "skillId": 809,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 81,
+      "skillId": 810,
+      "roadmap": "devops",
+      "title": "Martin Fowler: #1A8FE3-#29e652 Deployment",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://martinfowler.com/bliki/#1A8FE3#29e652Deployment.html"
+    },
+    {
+      "id": 262,
+      "skillId": 810,
+      "roadmap": "devops",
+      "title": "KodeKloud: Free DevOps Labs",
+      "type": "interactive",
+      "color": "#6610F2",
+      "url": "https://kodekloud.com"
+    },
+    {
+      "id": 263,
+      "skillId": 810,
+      "roadmap": "devops",
+      "title": "freeCodeCamp: DevOps Concepts Guide",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/devops-tools-and-concepts/"
+    },
+    {
+      "id": 82,
+      "skillId": 901,
+      "roadmap": "mobile",
+      "title": "React Native Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnative.dev/docs/getting-started"
+    },
+    {
+      "id": 264,
+      "skillId": 901,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 265,
+      "skillId": 901,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 83,
+      "skillId": 902,
+      "roadmap": "mobile",
+      "title": "React Native: Core Components",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnative.dev/docs/components-and-apis"
+    },
+    {
+      "id": 266,
+      "skillId": 902,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 267,
+      "skillId": 902,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 84,
+      "skillId": 903,
+      "roadmap": "mobile",
+      "title": "React Navigation Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnavigation.org/docs/getting-started"
+    },
+    {
+      "id": 268,
+      "skillId": 903,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 269,
+      "skillId": 903,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 85,
+      "skillId": 904,
+      "roadmap": "mobile",
+      "title": "Expo Documentation: Camera",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.expo.dev/versions/latest/sdk/camera/"
+    },
+    {
+      "id": 270,
+      "skillId": 904,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 271,
+      "skillId": 904,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 86,
+      "skillId": 905,
+      "roadmap": "mobile",
+      "title": "React Native: Managing State",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnative.dev/docs/state"
+    },
+    {
+      "id": 272,
+      "skillId": 905,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 273,
+      "skillId": 905,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 87,
+      "skillId": 906,
+      "roadmap": "mobile",
+      "title": "React Native: Networking",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnative.dev/docs/network"
+    },
+    {
+      "id": 274,
+      "skillId": 906,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 275,
+      "skillId": 906,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 88,
+      "skillId": 907,
+      "roadmap": "mobile",
+      "title": "Expo Documentation: Push Notifications",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.expo.dev/push-notifications/overview/"
+    },
+    {
+      "id": 276,
+      "skillId": 907,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 277,
+      "skillId": 907,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 89,
+      "skillId": 908,
+      "roadmap": "mobile",
+      "title": "React Native: Performance Overview",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://reactnative.dev/docs/performance"
+    },
+    {
+      "id": 278,
+      "skillId": 908,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 279,
+      "skillId": 908,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 90,
+      "skillId": 909,
+      "roadmap": "mobile",
+      "title": "Expo Documentation: Distribution",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://docs.expo.dev/distribution/introduction/"
+    },
+    {
+      "id": 280,
+      "skillId": 909,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 281,
+      "skillId": 909,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 91,
+      "skillId": 910,
+      "roadmap": "mobile",
+      "title": "React Native Testing Library",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://callstack.github.io/react-native-testing-library/"
+    },
+    {
+      "id": 282,
+      "skillId": 910,
+      "roadmap": "mobile",
+      "title": "Expo Blog & Guides",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://expo.dev/blog"
+    },
+    {
+      "id": 283,
+      "skillId": 910,
+      "roadmap": "mobile",
+      "title": "freeCodeCamp: React Native Course",
+      "type": "video",
+      "color": "#D11149",
+      "url": "https://www.freecodecamp.org/news/learn-react-native-by-building-an-app/"
+    },
+    {
+      "id": 92,
+      "skillId": 1001,
+      "roadmap": "system_design",
+      "title": "System Design Primer (GitHub)",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "id": 284,
+      "skillId": 1001,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 285,
+      "skillId": 1001,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 93,
+      "skillId": 1002,
+      "roadmap": "system_design",
+      "title": "AWS: Horizontal vs Vertical Scaling",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://aws.amazon.com/what-is/horizontal-scaling/"
+    },
+    {
+      "id": 286,
+      "skillId": 1002,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 287,
+      "skillId": 1002,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 94,
+      "skillId": 1003,
+      "roadmap": "system_design",
+      "title": "NGINX: What Is Load Balancing",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.nginx.com/resources/glossary/load-balancing/"
+    },
+    {
+      "id": 288,
+      "skillId": 1003,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 289,
+      "skillId": 1003,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 95,
+      "skillId": 1004,
+      "roadmap": "system_design",
+      "title": "AWS: Caching Overview",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://aws.amazon.com/caching/"
+    },
+    {
+      "id": 290,
+      "skillId": 1004,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 291,
+      "skillId": 1004,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 96,
+      "skillId": 1005,
+      "roadmap": "system_design",
+      "title": "MongoDB: Sharding Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://www.mongodb.com/docs/manual/sharding/"
+    },
+    {
+      "id": 292,
+      "skillId": 1005,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 293,
+      "skillId": 1005,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 97,
+      "skillId": 1006,
+      "roadmap": "system_design",
+      "title": "Martin Fowler: Microservices",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://martinfowler.com/articles/microservices.html"
+    },
+    {
+      "id": 294,
+      "skillId": 1006,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 295,
+      "skillId": 1006,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 98,
+      "skillId": 1007,
+      "roadmap": "system_design",
+      "title": "Apache Kafka Documentation",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://kafka.apache.org/documentation/"
+    },
+    {
+      "id": 296,
+      "skillId": 1007,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 297,
+      "skillId": 1007,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 99,
+      "skillId": 1008,
+      "roadmap": "system_design",
+      "title": "IBM: CAP Theorem Explained",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://www.ibm.com/topics/cap-theorem"
+    },
+    {
+      "id": 298,
+      "skillId": 1008,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 299,
+      "skillId": 1008,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 100,
+      "skillId": 1009,
+      "roadmap": "system_design",
+      "title": "AWS: What Is an API Gateway",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://aws.amazon.com/api-gateway/"
+    },
+    {
+      "id": 300,
+      "skillId": 1009,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 301,
+      "skillId": 1009,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    },
+    {
+      "id": 101,
+      "skillId": 1010,
+      "roadmap": "system_design",
+      "title": "System Design Primer: Designing a URL Shortener",
+      "type": "docs",
+      "color": "#1A8FE3",
+      "url": "https://github.com/donnemartin/system-design-primer#design-a-url-shortener"
+    },
+    {
+      "id": 302,
+      "skillId": 1010,
+      "roadmap": "system_design",
+      "title": "ByteByteGo: System Design Newsletter",
+      "type": "article",
+      "color": "#E6C229",
+      "url": "https://blog.bytebytego.com"
+    },
+    {
+      "id": 303,
+      "skillId": 1010,
+      "roadmap": "system_design",
+      "title": "Educative: Grokking the System Design Interview",
+      "type": "course",
+      "color": "#29e652",
+      "url": "https://www.educative.io/courses/grokking-the-system-design-interview"
+    }
   ],
-
   "achievements": [
-    { "id": 1, "title": "First Steps", "description": "Complete your first skill.", "icon": "🥇", "type": "first_skill", "xpReward": 25, "unlocked": true },
-    { "id": 2, "title": "Roadmap Rookie", "description": "Complete 5 skills in any roadmap.", "icon": "🌱", "type": "skills_completed_5", "xpReward": 50, "unlocked": false },
-    { "id": 3, "title": "Frontend Finisher", "description": "Complete the entire Frontend roadmap.", "icon": "🌐", "type": "roadmap_complete_frontend", "xpReward": 150, "unlocked": false },
-    { "id": 4, "title": "React Ranger", "description": "Complete the entire React roadmap.", "icon": "⚛️", "type": "roadmap_complete_react", "xpReward": 150, "unlocked": false },
-    { "id": 5, "title": "Backend Builder", "description": "Complete the entire Backend roadmap.", "icon": "🛠️", "type": "roadmap_complete_backend", "xpReward": 150, "unlocked": false },
-    { "id": 6, "title": "Algorithm Ace", "description": "Complete the entire DSA roadmap.", "icon": "🧠", "type": "roadmap_complete_dsa", "xpReward": 200, "unlocked": false },
-    { "id": 7, "title": "Design Devotee", "description": "Complete the entire UI/UX roadmap.", "icon": "🎨", "type": "roadmap_complete_uiux", "xpReward": 150, "unlocked": false },
-    { "id": 8, "title": "On Fire", "description": "Maintain a 7-day learning streak.", "icon": "🔥", "type": "streak_7", "xpReward": 75, "unlocked": false },
-    { "id": 9, "title": "Unstoppable", "description": "Maintain a 30-day learning streak.", "icon": "⚡", "type": "streak_30", "xpReward": 200, "unlocked": false },
-    { "id": 10, "title": "XP Hunter", "description": "Earn 1000 total XP.", "icon": "💎", "type": "xp_1000", "xpReward": 100, "unlocked": false }
+    {
+      "id": 1,
+      "title": "First Steps",
+      "description": "Complete your first skill. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83e/udd47",
+      "type": "first_skill",
+      "xpReward": 25,
+      "unlocked": true
+    },
+    {
+      "id": 2,
+      "title": "Roadmap Rookie",
+      "description": "Complete 5 skills in any roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83c/udf31",
+      "type": "skills_completed_5",
+      "xpReward": 50,
+      "unlocked": false
+    },
+    {
+      "id": 3,
+      "title": "Frontend Finisher",
+      "description": "Complete the entire Frontend roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83c/udf10",
+      "type": "roadmap_complete_frontend",
+      "xpReward": 150,
+      "unlocked": false
+    },
+    {
+      "id": 4,
+      "title": "React Ranger",
+      "description": "Complete the entire React roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/u269b/ufe0f",
+      "type": "roadmap_complete_react",
+      "xpReward": 150,
+      "unlocked": false
+    },
+    {
+      "id": 5,
+      "title": "Backend Builder",
+      "description": "Complete the entire Backend roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83d/udee0/ufe0f",
+      "type": "roadmap_complete_backend",
+      "xpReward": 150,
+      "unlocked": false
+    },
+    {
+      "id": 6,
+      "title": "Algorithm Ace",
+      "description": "Complete the entire DSA roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83e/udde0",
+      "type": "roadmap_complete_dsa",
+      "xpReward": 200,
+      "unlocked": false
+    },
+    {
+      "id": 7,
+      "title": "Design Devotee",
+      "description": "Complete the entire UI/UX roadmap. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83c/udfa8",
+      "type": "roadmap_complete_uiux",
+      "xpReward": 150,
+      "unlocked": false
+    },
+    {
+      "id": 8,
+      "title": "On Fire",
+      "description": "Maintain a 7-day learning streak. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83d/udd25",
+      "type": "streak_7",
+      "xpReward": 75,
+      "unlocked": false
+    },
+    {
+      "id": 9,
+      "title": "Unstoppable",
+      "description": "Maintain a 30-day learning streak. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/u26a1",
+      "type": "streak_30",
+      "xpReward": 200,
+      "unlocked": false
+    },
+    {
+      "id": 10,
+      "title": "XP Hunter",
+      "description": "Earn 1000 total XP. Unlocking this achievement rewards you with bonus XP and marks a meaningful milestone in your overall learning journey, helping you stay motivated and consistent as you continue progressing through the roadmaps and building real, practical skills.",
+      "icon": "/ud83d/udc8e",
+      "type": "xp_1000",
+      "xpReward": 100,
+      "unlocked": false
+    }
   ],
-
   "users": [
     {
       "id": 1,
@@ -371,11 +3874,38 @@
       "lastActiveAt": "2026-06-24T18:30:00.000Z"
     }
   ],
-
   "progress": [
-    { "id": 1, "userId": 1, "roadmap": "frontend", "skillId": 101, "xpEarned": 50, "completedAt": "2026-06-10T10:15:00.000Z" },
-    { "id": 2, "userId": 1, "roadmap": "react", "skillId": 201, "xpEarned": 50, "completedAt": "2026-06-15T14:20:00.000Z" },
-    { "id": 3, "userId": 1, "roadmap": "dsa", "skillId": 401, "xpEarned": 50, "completedAt": "2026-06-20T08:45:00.000Z" },
-    { "id": 4, "userId": 1, "roadmap": "frontend", "skillId": 102, "xpEarned": 25, "completedAt": null }
+    {
+      "id": 1,
+      "userId": 1,
+      "roadmap": "frontend",
+      "skillId": 101,
+      "xpEarned": 50,
+      "completedAt": "2026-06-10T10:15:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "roadmap": "react",
+      "skillId": 201,
+      "xpEarned": 50,
+      "completedAt": "2026-06-15T14:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "roadmap": "dsa",
+      "skillId": 401,
+      "xpEarned": 50,
+      "completedAt": "2026-06-20T08:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "roadmap": "frontend",
+      "skillId": 102,
+      "xpEarned": 25,
+      "completedAt": null
+    }
   ]
 }

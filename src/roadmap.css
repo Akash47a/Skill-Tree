@@ -16,7 +16,7 @@
     margin: 100px 0;
 }
 .course{
-    height: 250px;
+    height: auto;
     width: 90%;
     padding: 20px 40px;
     border: 1px solid black;
