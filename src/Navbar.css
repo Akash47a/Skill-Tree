@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     background-color: white;
+    background-color: var(--bg-primary);
 }
 .rightNav{
     display: flex;
@@ -22,6 +23,7 @@
   height: 60px;
   position: fixed;
   top: 5px;
+  z-index: 1;
 }
 .searchbar{
     position: absolute;
@@ -46,7 +48,7 @@
     outline: none;
 }
 .profile{
-    
+    margin-top: 5px;
 }
 .showprofile{
     position: fixed;

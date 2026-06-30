@@ -1,16 +1,18 @@
 .home-container{
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background-color: var(--bg-primary);
 }
 .home-title{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg-primary);
     
 }
 .home-title h4{
