@@ -5,12 +5,14 @@ import Sidebar from './Sidebar'
 import RoadMap from './RoadMap'
 import SkillCard from './SkillCard'
 import Home from './Home'
+import XPcalculation from './XPcalculation'
 function App() {
   const [name,setName]=useState("")
   const [skill,setSkill]=useState(null)
   const [click,setClick]=useState("none")
   const [id,setid]=useState(null)
   const [roadmapData, setRoadmapData] = useState(null);
+  const [changedSkillStatus,setChangedSkillStatus]=useState(null);
 
 const loadData = async () => {
 
@@ -28,7 +30,7 @@ const loadData = async () => {
   
   return (
     <div className="app d-flex flex-column">
-      <div style={{height:"60px",width:"100vw"}}><Navbar /></div>
+      <div style={{height:"60px",width:"100vw"}}><Navbar changedSkillStatus={changedSkillStatus}/></div>
       <div className='d-flex'>
         <div className='w-15'><Sidebar  setName={setName}/></div>
         {name?(
@@ -37,7 +39,8 @@ const loadData = async () => {
           <div className='w-84'><Home setName={setName}/></div>
         )}
       </div>
-      {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill} id={id} onUpdate={loadData}/></div>}
+      {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill} id={id} onUpdate={loadData} setUpdatedSkill={setChangedSkillStatus}/></div>}
+      
     </div>
   )
 }

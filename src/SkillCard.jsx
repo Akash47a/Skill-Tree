@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./skillcard.css";
 import SkillStatus from "./SkillStatus";
-function SkillCard({ skill,setSkill,id,onUpdate }) {
+function SkillCard({ skill,setSkill,id,onUpdate,setUpdatedSkill }) {
 
 const[resources,setResources]=useState([])
 useEffect(()=>{
@@ -18,7 +18,7 @@ useEffect(()=>{
         <div className="skillnav">
           <div className="resourcebtn"><p><i className="bi bi-globe-americas-fill"></i>  Resource</p></div>
           <div className="d-flex gap-3">
-            <div><SkillStatus roadmapid={id} skill={skill} onUpdate={onUpdate}/></div>
+            <div><SkillStatus roadmapid={id} skill={skill} onUpdate={onUpdate} setUpdatedSkill={setUpdatedSkill}/></div>
             <div className="closebtn" onClick={()=>setSkill(null)}>X</div>
           </div>
         </div>

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 
-function SkillStatus({ roadmapid, skill,onUpdate }) { 
+function SkillStatus({ roadmapid, skill,onUpdate,setUpdatedSkill }) { 
   const [datas, setDatas] = useState([]);
   const [status, setStatus] = useState(skill?.state || null); 
-
+  
   const handleChange = async (e) => {
+    const oldStatus=status;
     const newStatus = e.target.value;
     setStatus(newStatus);
     try {
@@ -12,7 +13,9 @@ function SkillStatus({ roadmapid, skill,onUpdate }) {
       const roadmap = await response.json();
 
       const updatedskills = roadmap[roadmap.slug].map((s) => 
-        s.id === skill.id ? { ...s, state: newStatus } : s
+        {if(s.id === skill.id) {if(newStatus=="completed"){setUpdatedSkill(s.xp)}if(oldStatus=="completed"){setUpdatedSkill(-(s.xp))} ;return { ...s, state: newStatus};}else{return s}}
+
+
       );
 
       const updatedRoadmap = { ...roadmap, [roadmap.slug]: updatedskills };

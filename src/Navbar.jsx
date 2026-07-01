@@ -3,7 +3,8 @@ import Searchbar from './Searchbar'
 import Profile from './Profile'
 import './Navbar.css'
 import { useEffect, useState } from 'react'
-function Navbar() {
+import XPcalculation from './XPcalculation'
+function Navbar({changedSkillStatus}) {
 
   const[profile,setProfile]=useState(null)
   const[showProfile,setShowProfile]=useState(false)
@@ -22,7 +23,7 @@ function Navbar() {
         </div>
         <div className='leftNav'>
             <div>streak:{profile.streak}<img src='src\assets\fire.png' style={{height:"1rem"}}></img></div>
-            <div>XP:{profile.xp}<i className="xp bi bi-lightning-charge-fill"></i></div>
+            <div><XPcalculation skill={changedSkillStatus} currentXP={profile.xp}/><i className="xp bi bi-lightning-charge-fill"></i></div>
             <div className='theme'><select name="theme" id="theme" className='themes'>
               <option value="light" >light </option>
               <option value="dark">dark </option>

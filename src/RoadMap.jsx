@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './roadmap.css'
 function RoadMap({name,setSkill,datass,setid}) {
   
+  
   const statusColors = {
     "pending": "#c8c8c8",       
     "in progress": "#eec64f",   
