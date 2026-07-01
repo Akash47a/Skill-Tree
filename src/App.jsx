@@ -7,7 +7,7 @@ import SkillCard from './SkillCard'
 import Home from './Home'
 import XPcalculation from './XPcalculation'
 import Help from './Help'
-import ProfilePage from './profilePage'
+import ProfilePage from './ProfilePage'
 function App() {
   const [name,setName]=useState("")
   const [skill,setSkill]=useState(null)

@@ -1,0 +1,55 @@
+
+.back-container{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.back-container p{
+    padding: 0px;
+    margin: 0px;
+}
+.profile-container{
+    height: 100%;
+    width: 60%;
+    backgjround-color: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.details p{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid gray;
+    height: 3rem;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.Current-Status{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 60%;
+}
+.status-box{
+    display: flex;
+    align-items: center;
+    width: 48.5%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}

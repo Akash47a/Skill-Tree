@@ -79,7 +79,9 @@
     line-height: 1.6;
   
 }
-
+.wpx-150{
+  width: 150px;
+}
 .w-15{
   width: 15vw;
 }
@@ -91,4 +93,7 @@
   position: relative;
   min-height: 100%;
   overflow: hidden;
+}
+.h-60{
+  height: 60%;
 }
