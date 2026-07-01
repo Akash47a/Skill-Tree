@@ -4,7 +4,7 @@
     height: 85vh;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .back-container p{
     padding: 0px;
@@ -12,19 +12,22 @@
 }
 .profile-container{
     height: 100%;
-    width: 60%;
-    backgjround-color: var(--bg-primary);
+    width: 50%;
+    background-color: var(--bg-secondary);
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.details{
-    width: 60%;
+.details-pp{
+    width: 70%;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.details p{
+.details-pp p{
     padding: 0px;
     margin: 0px;
     text-align: left;
@@ -42,7 +45,7 @@
     display: flex;
     flex-direction: column;
     height: 100px;
-    width: 60%;
+    width: 70%;
 }
 .status-box{
     display: flex;

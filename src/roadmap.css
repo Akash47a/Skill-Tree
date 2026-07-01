@@ -26,6 +26,7 @@
     justify-content: space-between;
     background-color: antiquewhite;
     gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .course h4{
     font-size: 3rem;
@@ -45,6 +46,7 @@
     background-color: yellow;
     display: flex;
     position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .skills p{
     margin-bottom: 0px;

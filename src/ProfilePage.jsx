@@ -22,8 +22,8 @@ function ProfilePage() {
       {profile? (
         <div className="profile-container">
           <img src={profile.avatar} alt="" className="rounded-circle wpx-150 "/>
-          <div className="details"><p>Name</p><input type="text" className="name-input input" value={profile.name}/></div>
-          <div className="details"><p>Email</p><input type="email" className="email-input input" value={profile.email}/></div>
+          <div className="details-pp"><p>Name</p><input type="text" className="name-input input" value={profile.name}/></div>
+          <div className="details-pp"><p>Email</p><input type="email" className="email-input input" value={profile.email}/></div>
           <div className="Current-Status">
             <p>Your Current Status</p>
             <div className="d-flex gap-2 h-75">
@@ -32,7 +32,7 @@ function ProfilePage() {
             </div>
           </div>
           <div className="progress">
-              
+
           </div>
         </div>   
       ):(

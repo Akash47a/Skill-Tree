@@ -13,7 +13,7 @@ function Profile(props) {
       {showProfile && <div className='showprofile'>
         <div className='details' ><img src={props.avatar} alt="" className='avatar hw-60'/>
           <h3>{props.name}</h3>
-          <p>{props.email}</p>
+          <p className='text-center text-md-start'>{props.email}</p>
         </div>
         <div className='list'>
           <div className="acheve"><span>XP earn:</span><h5>{props.xp}<i className="xp bi bi-lightning-charge-fill"></i></h5></div>

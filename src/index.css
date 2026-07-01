@@ -76,8 +76,14 @@
   margin: 0px;
   padding: 0px;
   font-family: var(--font-family);
-    line-height: 1.6;
+  line-height: 1.6;
   
+}
+p{
+  margin-bottom: 0px;
+}
+body{
+  background-color: var(--bg-primary);
 }
 .wpx-150{
   width: 150px;

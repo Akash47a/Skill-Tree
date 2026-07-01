@@ -18,7 +18,7 @@ function Navbar({changedSkillStatus}) {
      <div >
          {profile && <div className='Navbar'>
           <div className='rightNav'>
-            <div><img src="src\assets\Textlogo.png" alt="" className='Logo'/></div>
+            <div><img src="src\assets\textlogo2.png" alt="" className='Logo'/></div>
             <Searchbar/>
         </div>
         <div className='leftNav'>

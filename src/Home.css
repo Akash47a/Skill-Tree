@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-primary);
+    
     
 }
 .home-title h4{
@@ -20,6 +20,7 @@
     border: 0.5px solid black;
     padding: 5px 10px;
     border-radius: 10px;
+    background-color: var(--bg-secondary);
 }
 .courcebox{
     width: 300px;
@@ -27,6 +28,8 @@
     border-radius: 20px;
     padding: 10px 20px;
     flex-basis: 30%;
+    background-color: var(--bg-secondary);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .courcebox h4{
     font-size: 1.5rem;
