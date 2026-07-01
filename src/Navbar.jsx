@@ -23,7 +23,7 @@ function Navbar({changedSkillStatus}) {
         </div>
         <div className='leftNav'>
             <div>streak:{profile.streak}<img src='src\assets\fire.png' style={{height:"1rem"}}></img></div>
-            <div><XPcalculation skill={changedSkillStatus} currentXP={profile.xp}/><i className="xp bi bi-lightning-charge-fill"></i></div>
+            <div className='d-flex'>XP:<XPcalculation skill={changedSkillStatus} currentXP={profile.xp}/><i className="xp bi bi-lightning-charge-fill"></i></div>
             <div className='theme'><select name="theme" id="theme" className='themes'>
               <option value="light" >light </option>
               <option value="dark">dark </option>

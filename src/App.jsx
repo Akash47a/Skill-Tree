@@ -6,6 +6,8 @@ import RoadMap from './RoadMap'
 import SkillCard from './SkillCard'
 import Home from './Home'
 import XPcalculation from './XPcalculation'
+import Help from './Help'
+import ProfilePage from './profilePage'
 function App() {
   const [name,setName]=useState("")
   const [skill,setSkill]=useState(null)
@@ -13,6 +15,7 @@ function App() {
   const [id,setid]=useState(null)
   const [roadmapData, setRoadmapData] = useState(null);
   const [changedSkillStatus,setChangedSkillStatus]=useState(null);
+  const [page,setPage]=useState("Home")
 
 const loadData = async () => {
 
@@ -32,11 +35,16 @@ const loadData = async () => {
     <div className="app d-flex flex-column">
       <div style={{height:"60px",width:"100vw"}}><Navbar changedSkillStatus={changedSkillStatus}/></div>
       <div className='d-flex'>
-        <div className='w-15'><Sidebar  setName={setName}/></div>
+        <div className='w-15'><Sidebar  setName={setName} setPage={setPage}/></div>
         {name?(
           <div className='w-84' ><RoadMap name={name} setSkill={setSkill} setid={setid} datass={roadmapData}/></div>
         ):(
-          <div className='w-84'><Home setName={setName}/></div>
+          <div>
+            {(page=="Home")&&<div className='w-84'><Home setName={setName} /></div>}
+            {(page=="Help")&&<div className='w-84'><Help/></div>}
+            {(page=="Profile")&&<div className='w-84'><ProfilePage/></div>}
+          </div>
+          
         )}
       </div>
       {skill && <div className='overlay'><SkillCard skill={skill} setSkill={setSkill} id={id} onUpdate={loadData} setUpdatedSkill={setChangedSkillStatus}/></div>}

@@ -16,10 +16,10 @@ function Profile(props) {
           <p>{props.email}</p>
         </div>
         <div className='list'>
-          <div className="acheve"><span>XP earn:</span><h5>{props.xp}<i className="xp bi bi-lightning-charge-fill"></i></h5></div><hr />
-          <div className="acheve"><span>current level:</span><h5>{props.level}</h5></div><hr />
-          <div className="acheve"><span>current path:</span><h5>{props.xp}</h5></div><hr />
-          <div className="acheve"><span>Progress:</span><h5>{props.xp}</h5></div><hr />
+          <div className="acheve"><span>XP earn:</span><h5>{props.xp}<i className="xp bi bi-lightning-charge-fill"></i></h5></div>
+          <div className="acheve"><span>current level:</span><h5>{props.level}</h5></div>
+          <div className="acheve"><span>current path:</span><h5>{props.xp}</h5></div>
+          <div className="acheve"><span>Progress:</span><h5>{props.xp}</h5></div>
           <div className="acheve"><span>streaks:</span><h5>{props.streak}<img src='src\assets\fire.png' style={{height:"1rem"}}></img></h5></div>
 
         </div>
