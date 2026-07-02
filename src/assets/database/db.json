@@ -24,7 +24,7 @@
           "id": 102,
           "title": "CSS Basics",
           "description": "Selectors, box model, and styling fundamentals. This skill is part of the Frontend Development roadmap and focuses on CSS Basics. You will practice these concepts through small, hands-on exercises and real coding examples until they feel natural, rather than just reading about them passively. Mastering this topic builds the foundation you need before confidently moving on to the next skill in the sequence.",
-          "state": "pending",
+          "state": "completed",
           "locked": false,
           "prerequisite": 101,
           "xp": 50
@@ -3867,7 +3867,7 @@
       "name": "Akash",
       "email": "akash47a@example.com",
       "avatar": "src/assets/avatar.jpg",
-      "xp": 50,
+      "xp": 100,
       "streak": 1,
       "joinedAt": "2026-05-01T09:00:00.000Z",
       "lastActiveAt": "2026-07-01T18:30:00.000Z"
