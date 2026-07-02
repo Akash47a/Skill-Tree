@@ -3868,10 +3868,9 @@
       "email": "akash47a@example.com",
       "avatar": "src/assets/avatar.jpg",
       "xp": 0,
-      "level": "beginner",
-      "streak": 3,
+      "streak": 1,
       "joinedAt": "2026-05-01T09:00:00.000Z",
-      "lastActiveAt": "2026-06-24T18:30:00.000Z"
+      "lastActiveAt": "2026-07-01T18:30:00.000Z"
     }
   ],
   "progress": [

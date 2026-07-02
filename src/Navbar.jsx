@@ -1,10 +1,9 @@
 import React from 'react'
 import Searchbar from './Searchbar'
-import Profile from './Profile'
 import './Navbar.css'
 import { useEffect, useState } from 'react'
 import XPcalculation from './XPcalculation'
-function Navbar({changedSkillStatus}) {
+function Navbar({changedSkillStatus,setPage}) {
 
   const[profile,setProfile]=useState(null)
   const[showProfile,setShowProfile]=useState(false)
@@ -28,8 +27,8 @@ function Navbar({changedSkillStatus}) {
               <option value="light" >light </option>
               <option value="dark">dark </option>
             </select></div>
-            <Profile key={profile.id} avatar={profile.avatar} show={showProfile} name={profile.name} email={profile.email} xp={profile.xp} level={profile.level} streak={profile.streak} />
-        </div>
+            <div className='profile' role='button' onClick={()=>{setPage("Profile")}}><img src={profile.avatar} alt=""  className='avatar hw-45' /></div>
+          </div>
         </div>}
         
     </div>

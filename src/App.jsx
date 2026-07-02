@@ -33,7 +33,7 @@ const loadData = async () => {
   
   return (
     <div className="app d-flex flex-column">
-      <div style={{height:"60px",width:"100vw"}}><Navbar changedSkillStatus={changedSkillStatus}/></div>
+      <div style={{height:"60px",width:"100vw"}}><Navbar changedSkillStatus={changedSkillStatus} setPage={setPage}/></div>
       <div className='d-flex'>
         <div className='w-15'><Sidebar  setName={setName} setPage={setPage}/></div>
         {name?(

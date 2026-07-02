@@ -50,7 +50,7 @@
 .status-box{
     display: flex;
     align-items: center;
-    width: 48.5%;
+    width: 49%;
     height: 100%;
     border: 1px solid black;
     border-radius: 10px;
@@ -64,4 +64,9 @@
     height: 60px;
     border: 1px solid black;
     border-radius: 10px;
+}
+.level-align{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
