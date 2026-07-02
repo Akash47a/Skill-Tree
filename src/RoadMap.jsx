@@ -9,6 +9,8 @@ function RoadMap({name,setSkill,datass,setid}) {
     "completed": "#42e47e"      
   };
 
+
+
   return (
     <div>
       {datass.length>0?(

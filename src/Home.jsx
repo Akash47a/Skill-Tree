@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-function Home({setName}) {
+function Home({setName,text}) {
   const [datas, setDatas] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/roadmaps")
@@ -9,13 +9,17 @@ function Home({setName}) {
       .catch((err) => console.log(err));
   }, []);
 
+
+
   return (
     <div>
       {datas.length > 0 ? (
         <div>
           <div className="home-title"><h4>RoadMaps</h4></div>
           <div className="home-container">
-            {datas.map((data) => (
+            {datas.filter((data)=>(data.title.toLowerCase().includes((text||""))))
+            .map((data) => (
+              
               <div className="courcebox" key={data.id} onClick={()=>setName(data.slug)}>
                 <h4 >{data.title}</h4>
                 <p className="text-truncate">{data.description}</p>
